@@ -1,0 +1,176 @@
+@media (min-width:320px) {
+    
+    .main-intro {
+        display: flex;
+        height:600px;
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid blue ;
+
+        &__container {
+            
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__title{
+            margin: 0 auto;
+            margin-top: 40px;
+            text-align: center;
+            padding: 0;
+            outline: 2px red solid;
+        }
+        
+        &__quote{
+            margin-top: 98px;
+            width: 260px;
+            outline: 3px blue solid;
+        }
+        
+        &__contact-list{
+            margin: 0;
+            padding: 0;
+            margin-top: 250px;
+            list-style: none;
+            display: flex;
+            outline: 2px orange solid;
+        }
+        
+        &__blockquote{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        
+        &__cite{
+            display: block;
+            width: 160px;
+            outline: 2px orange solid;
+            
+            
+        }
+        
+}
+
+}
+
+
+
+@media (min-width:768px) {
+    
+    .main-intro {
+        display: flex;
+        height:600px;
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+
+        &__container {
+//            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 768px;
+            padding-left: 40px;
+            padding-right: 40px;
+//            padding-top: 98px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__title{
+            margin: 0 auto;
+            margin-top: 40px;
+            text-align: center;
+            padding: 0;
+            outline: 2px red solid;
+        }
+        
+        &__quote{
+            margin-top: 98px;
+            width: 260px;
+            outline: 3px blue solid;
+        }
+        
+        &__contact-list{
+            display: none;
+        }
+        
+        &__blockquote{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        
+        &__cite{
+            display: block;
+            width: 180px;
+            outline: 2px orange solid;  
+            
+        }
+        
+    
+}
+
+}
+
+
+@media (min-width: 1440px) {
+    .main-intro {
+        display: flex;
+        
+        height:640px;
+        
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+
+        &__container {
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 1440px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 100px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__title{
+            margin: 0;
+            margin-left: 70px;
+            width:420px;
+            text-align: left;
+            padding: 0;
+            outline: 2px red solid;
+        }
+        
+        &__quote{
+            margin-top: 9px;
+            width: 260px;
+            outline: 3px blue solid;
+        }
+        
+        &__contact-list{
+            display: none;
+        }
+        
+        &__blockquote{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+
+    }
+
+}
+
+
+

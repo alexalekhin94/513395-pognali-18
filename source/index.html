@@ -3,77 +3,106 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Погнали</title>
-    <link href="/source/css/styles.css" rel="stylesheet">
+    <link href="/source/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="page-header">
-        <a class="page-header__logo">
-            <img class="page-header__logo-image" src="/source/img/logo-desktop-white.png" width="200" height="52" alt="Сервис для поиска попутчиков «Погнали»">
-        </a>
+        <div class="page-header__container">
+            <a class="page-header__logo">
+                <img class="page-header__logo-image" src="/source/img/logo-desktop-white.png" width="200" height="52" alt="Сервис для поиска попутчиков «Погнали»">
+            </a>
 
-        <nav class="main-nav">
-            <button class="main-nav__toogle" type="button">Открыть меню</button>
+            <nav class="main-nav">
+                <button class="main-nav__toogle visually-hidden" type="button">Открыть меню</button>
 
-            <div class="main-nav__wrapper">
-                <ul class="main-nav__list site-list">
-                    <li class="site-list__item"><a class="site-list__link">О сервисе</a></li>
-                    <li class="site-list__item"><a class="site-list__link">Направления</a></li>
-                    <li class="site-list__item"><a class="site-list__link">Попутчики</a></li>
-                </ul>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list site-list">
+                        <li class="site-list__item"><a class="site-list__link" href="#">О сервисе</a></li>
+                        <li class="site-list__item"><a class="site-list__link" href="#">Направления</a></li>
+                        <li class="site-list__item"><a class="site-list__link" href="#">Попутчики</a></li>
+                    </ul>
 
-                <ul class="main-nav__list user-list">
-                    <a class="user-list__auth" href="#">Авторизация</a>
-                </ul>
+                    <ul class="main-nav__list user-list">
+                        <a class="user-list__auth" href="#">Авторизация</a>
+                    </ul>
 
-                <ul class="main-nav__list contact-list">
-                    <li class="contact-list__item"><a class="usernav-list__link" href="tel:88005558628"> 88005558628</a></li>
-                    <li class="contact-list__item"><a class="usernav-list__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru </a></li>
-                </ul>
+                    <ul class="main-nav__list contact-list">
+                        <li class="contact-list__item"><a class="contact-list__link" href="tel:88005558628"> 88005558628</a></li>
+                        <li class="contact-list__item"><a class="contact-list__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru </a></li>
+                    </ul>
 
-                <ul class="main-nav__list social-media-list">
-                    <li class="social-media-list__item"><a class="social-media-list__link">Фейсбук</a></li>
-                    <li class="social-media-list__item"><a class="social-media-list__link">Вконтакте</a></li>
-                    <li class="social-media-list__item"><a class="social-media-list__link">Инстаграмм</a></li>
-                </ul>
-            </div>
-        </nav>
+                    <ul class="main-nav__list social-media-list">
+                        <li class="social-media-list__item"><a class="social-media-list__link">Фейсбук</a></li>
+                        <li class="social-media-list__item"><a class="social-media-list__link">Вконтакте</a></li>
+                        <li class="social-media-list__item"><a class="social-media-list__link">Инстаграмм</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main class="page-main">
         <h1 class="visually-hidden"> Проект для поиска попутчиков "Погнали"</h1>
 
         <section class="main-intro">
-            <h2 class="visually-hidden">В путешествие с крутыми попутчиками!</h2>
-            <div class="main-intro__picture">
-                <p>В путешествие с крутыми попутчиками!</p>
-            </div>
+            <div class="main-intro__container">
+                <h2 class="main-intro__title">В путешествие<br> с крутыми<br> попутчиками!</h2>
 
-            <div class="main-intro__quote">
-                <h2 class="visually-hidden">Отзывы наших Клиентов</h2>
-                <blockquote class="">
-                    "Лучшее приложение, что я видел в жизни!"
-                </blockquote>
-                <cite>Мурат Эльтазин,<br>главный редактор газеты "гаджетлайф"</cite>
-            </div>
 
-            <ol class="main-intro__to-do-list">
-                <h2 class="visually-hidden">Как работать с приложением?</h2>
-                <li class="main-intro__to-do-list-item main-intro__to-do-list-item--item1">
-                    <p class="">Выберите направление</p>
-                </li>
-                <li class="main-intro__to-do-list-item main-intro__to-do-list-item--item2">
-                    <p class="">Изучите идеи путешественников</p>
-                </li>
-                <li class="main-intro__to-do-list-item main-intro__to-do-list-item--item3">
-                    <p class="">Находите тех, кто похож на вас</p>
-                </li>
-                <li class="main-intro__to-do-list-item main-intro__to-do-list-item--item4">
-                    <p class="">Путешествуйте вместе!</p>
-                </li>
-            </ol>
+
+
+
+                <ul class="main-intro__contact-list">
+                    <li class="contact-list__item"><a class="user-list__auth" href="#">Авторизация</a></li>
+                    <li class="contact-list__item"><a class="contact-list__link" href="tel:88005558628"> 88005558628</a></li>
+                    <li class="contact-list__item"><a class="contact-list__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru </a></li>
+                </ul>
+
+
+
+
+
+                <div class="main-intro__quote">
+                    <h2 class="visually-hidden">Отзывы наших Клиентов</h2>
+                    <blockquote class="main-intro__blockquote">
+                        "Лучшее приложение,<br> что я видел в жизни!"
+                    </blockquote>
+                    <cite class="main-intro__cite">Мурат Эльтазин,<br>главный редактор газеты "гаджетлайф"</cite>
+                </div>
+
+
+            </div>
         </section>
+
+
+        <section class="main-steps">
+             <h2 class="visually-hidden">Как работать с приложением?</h2>
+            <div class="main-steps__container">
+                <ol class="main-steps__to-do-list">
+                   
+                    <li class="main-steps__to-do-list-item main-steps__to-do-list-item--item1">
+                        <p class="">Выберите направление</p>
+                    </li>
+                    <li class="main-steps__to-do-list-item main-steps__to-do-list-item--item2">
+                        <p class="">Изучите идеи путешественников</p>
+                    </li>
+                    <li class="main-steps__to-do-list-item main-steps__to-do-list-item--item3">
+                        <p class="">Находите тех, кто похож на вас</p>
+                    </li>
+                    <li class="main-steps__to-do-list-item main-steps__to-do-list-item--item4">
+                        <p class="">Путешествуйте вместе!</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+
+
+
+
 
         <section class="main-about">
             <h2 class="main-about__title">О сервисе</h2>
@@ -246,41 +275,39 @@
                         <input class="sub-inp" type="text" placeholder="E-mail">
                         <button class="main-registration-questions__button">Отправить</button>
                     </div>
-            <p class="main-registration-questions__text">Остались вопросы? Мы с радостью на них ответим</p>
-            
-            <ul class="main-registration-questions__list contact-list">
-                    <li class="contact-list__item contact-list__item--yellow"><a class="usernav-list__link usernav-list__link--yellow" href="tel:88005558628"> 88005558628</a></li>
-                    <li class="contact-list__item contact-list__item--yellow"><a class="usernav-list__link usernav-list__link--yellow" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru </a></li>
-            </ul> 
+                    <p class="main-registration-questions__text">Остались вопросы? Мы с радостью на них ответим</p>
+
+                    <ul class="main-registration-questions__list contact-list">
+                        <li class="contact-list__item contact-list__item--yellow"><a class="usernav-list__link usernav-list__link--yellow" href="tel:88005558628"> 88005558628</a></li>
+                        <li class="contact-list__item contact-list__item--yellow"><a class="usernav-list__link usernav-list__link--yellow" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru </a></li>
+                    </ul>
         </section>
-        
+
         <section class="main-map">
             <div class="main-map-get-direction">
                 <p class="main-map-get-direction__address"></p>
                 <a class="main-map-get-direction__button">Проложить маршрут</a>
             </div>
-            
+
             <div class="main-map__map">
                 <iframe src="#" frameborder="0"></iframe>
             </div>
         </section>
-        
+
         <footer class="main-footer">
             <a class="main-footer__logo"><img class="main-footer__logo-image" src="/source/img/logo-desktop-white.png" width="200" height="52" alt="Сервис для поиска попутчиков «Погнали»"></a>
-            
+
             <ul class="main-footer__social-media footer-social-media">
                 <li class="footer-social-media__item"><a class="footer-social-media__link">Фейсбук</a></li>
-                <li class="footer-social-media__item"><a class="footer-social-media__link">Вконтакте</a></li>
+                <li class="footer-social-media__item"><a class="foo mter-social-media__link">Вконтакте</a></li>
                 <li class="footer-social-media__item"><a class="footer-social-media__link">Инстаграмм</a></li>
             </ul>
-            
+
             <div class="main-footer-developer">
                 <p>Разработано</p>
                 <a class="main-footer-developer__link"><img srс=""></a>
             </div>
-        
+
         </footer>
     </main>
-
-</body>
-</html>
+</body></html>
