@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+    .main-about{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid orange;
+
+        &__container{    
+            margin: 0 auto;
+            width: 768px;
+            padding-left: 40px;
+            padding-right: 40px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .main-about{
+//        
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+
+        &__container {  
+            margin: 0 auto;
+            width: 1440px;
+            height: 750px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 1px;
+            outline: 8px solid green;
+            box-sizing: border-box;
+        }
+        
+        
+//        Какое-то странное поведение h2 с верхним марджином, решилось добавление топ паддинга в 1зчж
+        &__title{
+            margin: 0;
+            margin-top: 130px; 
+        }
+        
+        &__description{
+            margin:0;
+            margin-top: 70px;
+            width:621px;
+            
+            
+        }
+        
+        
+        
+    }
+}

@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+    .main-profile-add{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid orange;
+
+        &__container{    
+            margin: 0 auto;
+            width: 768px;
+            padding-left: 40px;
+            padding-right: 40px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .main-profile-add{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+
+        &__container {  
+            margin: 0 auto;
+            width: 1440px;
+            padding-left: 60px;
+            padding-right: 60px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__title{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        
+        
+        &__buisnes{
+            text-decoration: none;
+            color: black;
+            margin-top: 20px;
+            
+        }
+        
+    }
+}

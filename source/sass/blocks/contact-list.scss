@@ -1,6 +1,11 @@
 .contact-list{
+    margin: 0;
+    padding: 0;
     display: flex;
-    margin-left: 10px;
+   
+    list-style: none;
+    margin:0 auto;
+    outline: 2px blue solid;
     
     &__link{
         color: black;
@@ -10,5 +15,20 @@
 //        outline: 2px green solid;
         
     }
+    
+         &__item{
+            outline: 1px red solid;
+             margin-left: 230px;
+            
+        }
+    
+    
+     &__item:first-child{
+            outline: 1px red solid;
+             margin-left: 0px;
+            
+        }
+    
+    
     
 }

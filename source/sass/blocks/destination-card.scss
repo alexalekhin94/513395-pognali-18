@@ -1,0 +1,85 @@
+@media (min-width: 768px) {
+.destination-card{
+    width:100%;
+    outline:2px red solid;
+    border: 2px red solid;
+    border-radius: 10px;
+    display: flex;
+    
+    &__main-information{
+        flex-grow: 1;
+        
+        
+        
+    }
+    
+    &__main-picture{
+        position: relative;
+        width: 186px;
+        outline: 2px blue solid;
+        
+    }
+    
+    &__main-picture::before{
+        position: absolute;
+        top:20px;
+        left:-30px;
+        content: "";
+        height: 40px;
+        width: 80px;
+        outline: 2px blue solid;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+}
+
+
+@media (min-width: 1440px) {
+.destination-card{
+    outline:0px red solid;
+    width:560px;
+    border: 2px red solid;
+    border-radius: 10px;
+    display: flex;
+    
+    &__main-information{
+        flex-grow: 1;
+        
+        
+        
+    }
+    
+    &__main-picture{
+        position: relative;
+        width: 186px;
+        outline: 2px blue solid;
+        
+    }
+    
+    &__main-picture::before{
+        position: absolute;
+        top:20px;
+        left:-30px;
+        content: "";
+        height: 40px;
+        width: 80px;
+        outline: 2px blue solid;
+        
+    }
+
+    
+    
+    
+    
+    
+    }
+}
+
+
