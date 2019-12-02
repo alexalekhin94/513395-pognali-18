@@ -1,3 +1,31 @@
+@media (min-width: 320px) {
+    .main-about{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid orange;
+
+        &__container{    
+            margin: 0 auto;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__more-information{
+            display: none;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .main-about{
         box-sizing: border-box;

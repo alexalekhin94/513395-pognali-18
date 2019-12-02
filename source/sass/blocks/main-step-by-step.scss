@@ -1,3 +1,144 @@
+@media (min-width: 320px) {
+    .main-steps {
+        display: flex;
+        margin-top: 0px;
+//        height:380px;
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid blue;
+
+        &__container {
+//     
+            margin: 0 auto;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__to-do-list{
+            display: flex;
+            flex-wrap: wrap;
+//            border-radius: 15px;
+//            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            padding-left: 0px;
+            outline: 2px red solid;
+            list-style: none;
+        }
+        
+          &__to-do-list p{
+            
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        &__to-do-list-item{
+            box-sizing: border-box;
+            
+            margin-top: -20px;
+            margin-bottom: 0px;
+            margin-left:    0px;
+            border: 2px green solid;
+//            border-radius: 20px;
+            padding-left: 40px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 36px;
+            
+            
+        }
+        
+        &__to-do-list-item:first-child{
+//            margin-top: 0px;
+            
+        }
+        
+//        НЕ МОГУ ПОНЯТЬ ПОЧЕМУ ЧЕРЕЗ FIRSTCHILD не получается
+        &__to-do-list-item--item1{
+            border-radius: 20px 20px 0 0;
+            
+            width:100%;
+        }
+        
+         &__to-do-list-item--item2{
+             border-radius: 20px 20px 0 0;
+             width:100%;
+             flex-grow: 1;
+            
+             left: 0px;
+             background: red;
+
+            
+        }
+         &__to-do-list-item--item3{
+             border-radius: 20px 20px 0 0;
+            width:100%;
+            background: green;
+             
+        }
+        
+         &__to-do-list-item--item4{
+            border-radius: 20px 20px 0 0;
+            background: blue;
+            width:100%;
+            flex-grow: 1;
+            left: 0px;
+        }
+        
+        
+        &__title{
+            margin: 0;
+            margin-left: 70px;
+            width:420px;
+            text-align: left;
+            padding: 0;
+            outline: 2px red solid;
+        }
+        
+        &__quote{
+            margin-top: 9px;
+            width: 260px;
+            outline: 3px blue solid;
+        }
+        
+        &__contact-list{
+            display: none;
+        }
+        
+        &__blockquote{
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .main-steps {
         display: flex;
@@ -39,12 +180,11 @@
         
         &__to-do-list-item{
             box-sizing: border-box;
-            
             margin-top: 0px;
             margin-bottom: 0px;
             margin-left:    0px;
             border: 2px green solid;
-//            border-radius: 20px;
+            border-radius: 20px;
             padding-left: 40px;
             padding-right: 30px;
             padding-top: 20px;
@@ -132,7 +272,6 @@
         &__container {
 //     
             margin: 0 auto;
-            align-items: flex-start;
             width: 1440px;
             padding-left: 60px;
             padding-right: 60px;
@@ -159,7 +298,7 @@
         
         &__to-do-list-item{
             margin-top: 10px;
-            margin-bottom: 10px;
+//            margin-bottom: 10px;
             margin-left: -20px;
             border: 2px green solid;
             padding-left: 40px;
@@ -179,10 +318,11 @@
         
 //        НЕ МОГУ ПОНЯТЬ ПОЧЕМУ ЧЕРЕЗ FIRSTCHILD не получается
        &__to-do-list-item--item1{
-           margin-left: 1px;
+//           margin-left: 1px;
             border-radius: 20px 0 0 20px;
-            width:25%;
+            width:23%;
            flex-grow: 1;
+           background:orange;
         }
         
          &__to-do-list-item--item2{

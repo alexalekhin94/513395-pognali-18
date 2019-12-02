@@ -1,3 +1,50 @@
+@media (min-width: 320px) {
+.destination-card{
+    width:100%;
+    outline:2px red solid;
+    border: 2px red solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    &__main-information{
+        flex-grow: 1;
+        
+        
+        
+    }
+    
+    &__main-picture{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        outline: 2px blue solid;
+        order: -1;
+        
+    }
+    
+    &__main-picture::before{
+        position: absolute;
+        top:80px;
+        left:30px;
+        content: "";
+        height: 40px;
+        width: 80px;
+        outline: 2px blue solid;
+        
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
 .destination-card{
     width:100%;
@@ -5,6 +52,7 @@
     border: 2px red solid;
     border-radius: 10px;
     display: flex;
+    flex-direction: row;
     
     &__main-information{
         flex-grow: 1;
@@ -16,7 +64,9 @@
     &__main-picture{
         position: relative;
         width: 186px;
+        height: auto;
         outline: 2px blue solid;
+        order: 1;
         
     }
     
@@ -30,13 +80,6 @@
         outline: 2px blue solid;
         
     }
-    
-    
-    
-    
-    
-    
-    
 }
 }
 
@@ -48,9 +91,11 @@
     border: 2px red solid;
     border-radius: 10px;
     display: flex;
+    flex-direction: row;
     
     &__main-information{
         flex-grow: 1;
+        outline: 2px orange solid;
         
         
         
@@ -59,6 +104,7 @@
     &__main-picture{
         position: relative;
         width: 186px;
+        
         outline: 2px blue solid;
         
     }

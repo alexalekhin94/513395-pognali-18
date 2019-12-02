@@ -1,0 +1,21 @@
+@media (min-width: 1440px) {
+    
+    .main-map{
+  
+        width: 100%;
+    outline:2px red solid;
+    
+     &__container {  
+            margin: 0 auto;
+            width: 1440px;
+           height: 400px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 60px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+    
+    
+}
+}

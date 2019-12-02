@@ -1,0 +1,43 @@
+@media (min-width: 1440px) {
+    .main-footer {
+        display: flex;
+        height:154px;
+        
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid blue;
+
+        &__container {
+            display: flex;
+            margin: 0 auto;
+            width: 1440px;
+            padding-left: 60px;
+            padding-right: 60px;
+            outline: 2px solid green;
+            box-sizing: border-box;}
+        
+        &__social-media{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            margin:0 auto;
+            list-style: none;
+            outline: 2px solid red;
+        }
+        
+        &__social-link {
+            display: block;
+            
+            height: 40px;
+            width:40px;
+            outline: 2px red solid;
+            margin-left: 20px;
+        }
+        
+//         &__social-link:first-child {
+//            margin-left: 0px;
+//        }
+//        
+        
+    }
+}
