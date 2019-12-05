@@ -2,6 +2,46 @@
     margin: 0;
 }
 
+
+@media (min-width:320px){
+    
+    .price-table{
+        display: flex;
+        flex-direction: column;
+        outline: 1px red solid;
+        
+        &__row{
+//            display: flex;
+            width: 80%;
+            outline: 1px blue solid;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        &__title{
+            display: block;
+            width: 100%;
+            flex-grow: 0;
+            outline: 1px red solid;
+        }
+        
+        &__price{
+            display: block;
+            width: 200px;
+        } 
+        
+     
+    }
+}
+
+
+
+
+
+
+
+
+
 @media (min-width:768px){
     
     .price-table{

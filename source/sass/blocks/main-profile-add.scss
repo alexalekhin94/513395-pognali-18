@@ -1,3 +1,37 @@
+@media (min-width: 320px) {
+    .main-profile-add{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid orange;
+
+        &__container{    
+            margin: 0 auto;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+        }
+        
+        &__title{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        
+        
+      &__buisnes{
+            
+          display: block;
+           outline: 2px red solid;
+          
+          margin-top: 20px;
+        } 
+        
+    }
+}
+
+
 @media (min-width: 768px) {
     .main-profile-add{
         box-sizing: border-box;

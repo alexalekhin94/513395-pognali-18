@@ -1,3 +1,91 @@
+@media (min-width: 320px) {
+    
+    .main-registration-questions{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+        display: flex;
+
+        &__container {  
+            margin: 0 auto;
+            width: 320px;
+            padding-left: 25px;
+            padding-right: 25px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__title{
+            
+            padding: 0;
+            margin: 0;
+            font-size: 28px;
+            text-align: center;
+        }
+        
+        &__text{
+            display: block;
+            margin: 10px auto;
+            width: 210px;
+            outline: 2px solid green;
+            text-align: center;
+        }
+        
+        &__list{
+            
+            
+        }
+        
+    }
+            
+}
+        
+
+
+
+
+@media (min-width: 768px) {
+    
+    .main-registration-questions{
+        box-sizing: border-box;
+        width: 100%;
+        outline: 2px solid red;
+        display: flex;
+
+        &__container {  
+            margin: 0 auto;
+            width: 768px;
+            padding-left: 40px;
+            padding-right: 40px;
+            outline: 2px solid green;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__title{
+            
+            padding: 0;
+            margin: 0;
+            font-size: 28px;
+            text-align: center;
+        }
+        
+        &__text{
+            display: block;
+            width: 100%;
+            outline: 2px solid green;
+            text-align: center;
+        }
+        
+    }
+            
+}
+        
+
+
 @media (min-width: 1440px) {
     
     .main-registration-questions{
