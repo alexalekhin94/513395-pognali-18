@@ -1,8 +1,9 @@
 @media (min-width:320px) {
     
     .main-intro {
+        background: #161c34;
         display: flex;
-        height:600px;
+       
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue ;
@@ -19,6 +20,7 @@
         }
         
         &__title{
+            color: white;
             margin: 0 auto;
             margin-top: 40px;
             text-align: center;
@@ -27,6 +29,7 @@
         }
         
         &__quote{
+            color: white;
             margin-top: 98px;
             width: 260px;
             outline: 3px blue solid;
@@ -122,9 +125,13 @@
 @media (min-width: 1440px) {
     .main-intro {
         display: flex;
-        
         height:640px;
-        
+        background:
+            url('/source/img/traveller-illustration-desktop@1x.png') 57% 8px no-repeat,
+            url('/source/img/globe-back-desktop@1x.jpg') 50% 90% no-repeat;
+                    
+    background-color: #161c34;
+   
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid red;
@@ -137,23 +144,30 @@
             width: 1440px;
             padding-left: 60px;
             padding-right: 60px;
-            padding-top: 100px;
+            padding-top: 105px;
             outline: 2px solid green;
             box-sizing: border-box;
         }
         
         &__title{
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size: 60px;
+            
+            font-style: normal;
             margin: 0;
             margin-left: 70px;
-            width:420px;
+            line-height: 70px;
+            width:480px;
             text-align: left;
             padding: 0;
             outline: 2px red solid;
         }
         
         &__quote{
+    
             margin-top: 9px;
-            width: 260px;
+            width: 295px;
             outline: 3px blue solid;
         }
         
@@ -162,9 +176,21 @@
         }
         
         &__blockquote{
+            font-family: "BloggerSans", sans-serif;
+            font-weight: 300;
+            font-size: 28px;
             padding: 0;
             margin: 0;
             margin-bottom: 20px;
+        }
+        
+        &__cite{
+            width: 85%;
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 21px;
+            
         }
 
 
