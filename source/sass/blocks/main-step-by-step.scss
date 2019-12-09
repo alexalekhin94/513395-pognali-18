@@ -2,10 +2,12 @@
     .main-steps {
         display: flex;
         margin-top: 0px;
-//        height:380px;
+//        height:280px;
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
+         background: #192144;
+        
 
         &__container {
 //     
@@ -20,47 +22,71 @@
         &__to-do-list{
             display: flex;
             flex-wrap: wrap;
-//            border-radius: 15px;
-//            overflow: hidden;
             margin: 0;
             padding: 0;
+            margin-top: -85px;
+            margin-bottom: 48px;
             padding-left: 0px;
             outline: 2px red solid;
             list-style: none;
+            counter-reset: steps;
+           
         }
         
           &__to-do-list p{
             
             margin: 0;
             padding: 0;
+            outline: 1px red solid;
+            width: 140px;
             
         }
         
         &__to-do-list-item{
-            box-sizing: border-box;
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size:18px;
             
+            position: relative;
+            box-sizing: border-box;
+
             margin-top: -20px;
             margin-bottom: 0px;
             margin-left:    0px;
             border: 2px green solid;
-//            border-radius: 20px;
             padding-left: 40px;
             padding-right: 30px;
             padding-top: 20px;
             padding-bottom: 36px;
+              
+        }
+        
+        &__to-do-list-item::before{
+            position: absolute;
+            
+            width: 20px;
+            height: 20px;
+            outline: 2px red solid;
+            counter-increment: steps;
+            content: counter(steps);
+            top: 10px;
+            left: 220px;
+            color: #fff;
+            
+            
             
             
         }
         
         &__to-do-list-item:first-child{
-//            margin-top: 0px;
+            margin-top: 0px;
             
         }
         
 //        НЕ МОГУ ПОНЯТЬ ПОЧЕМУ ЧЕРЕЗ FIRSTCHILD не получается
         &__to-do-list-item--item1{
             border-radius: 20px 20px 0 0;
-            
+            background-color:#ff8d30;
             width:100%;
         }
         
@@ -70,20 +96,20 @@
              flex-grow: 1;
             
              left: 0px;
-             background: red;
+             background: #ffa530;
 
             
         }
          &__to-do-list-item--item3{
              border-radius: 20px 20px 0 0;
             width:100%;
-            background: green;
-             
+            background: #ffbd30;
+            
         }
         
          &__to-do-list-item--item4{
             border-radius: 20px 20px 0 0;
-            background: blue;
+            background: #ffd74b;
             width:100%;
             flex-grow: 1;
             left: 0px;
