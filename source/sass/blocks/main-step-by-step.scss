@@ -2,7 +2,6 @@
     .main-steps {
         display: flex;
         margin-top: 0px;
-//        height:280px;
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
@@ -151,23 +150,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
     .main-steps {
-        display: flex;
         margin-top: -74px;
         height:380px;
         box-sizing: border-box;
@@ -231,20 +215,20 @@
              flex-grow: 1;
              margin-left: -60px;
              left: 0px;
-             background: red;
+             
 
             
         }
          &__to-do-list-item--item3{
              border-radius: 0px 0px 20px 20px;
             width:57%;
-            background: green;
+            
              
         }
         
          &__to-do-list-item--item4{
             border-radius: 0px 0px 20px 20px;
-            background: blue;
+           
                     width:50%;
              flex-grow: 1;
              margin-left: -60px;

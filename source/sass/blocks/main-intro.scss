@@ -148,20 +148,17 @@
 @media (min-width:768px) {
     
     .main-intro {
-        display: flex;
-        height:800px;
-        box-sizing: border-box;
-        width: 100%;
-        outline: 2px solid red;
         
-         background:
+        height:800px;
+        width: 100%; 
+        background:
            
             url('/source/img/globe-back-tablet@1x.jpg') 50% 260px no-repeat;
         
          background-color: #182044;
 
         &__container {
-//            display: flex;
+
             background: url('/source/img/traveller-illustration-tablet@1x.png') 66% 280px no-repeat;
             margin: 0 auto;
             justify-content: space-between;

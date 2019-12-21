@@ -1,4 +1,5 @@
 @media (min-width: 320px) {
+    
     .companion-card{
         position: relative;
         border: 2px red solid;
@@ -6,6 +7,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        background-color: white;
         
         &__countries-list{
             list-style: none;
@@ -18,11 +20,12 @@
         
         &__tag-item{
             display: inline-block;
+            color:#39466a;
         }
         
         &__image{
             height: 270px;
-            outline: 2px red solid;
+            outline: 6px red solid;
             width: 100%;  
         }
         
@@ -44,7 +47,7 @@
             display: flex;
             margin: 0 auto;
             outline: 2px orange solid;
-            margin-top: -13px;
+            margin-top: -10px;
         }
         
         
@@ -63,18 +66,16 @@
         
         &__name{
             text-align: center;
+            color:#39466a;
         }
         
                
         &__transport-list{
             margin:0;
-            padding: 0;
-            
+            padding: 0;   
             display: flex;
             justify-content: center;
             list-style: none;
-         
-//            margin: 0 auto;
             outline:2px green solid;
             margin-top: 20px;
 
@@ -88,8 +89,23 @@
             margin-left: 20px;    
         }
         
+        &__transport-item svg{
+            fill:#d9d9d9;
+        }
+        
+        &__transport-item--active svg{
+            
+            fill:#1d2e5b;
+        }
+        
           &__transport-item:first-child{
-            margin-left: 0px;
+            margin-left: 0px;}
+        
+        &__description{
+            background-color: white;
+            color:#39466a;
+            
+            
         }
                 
     }

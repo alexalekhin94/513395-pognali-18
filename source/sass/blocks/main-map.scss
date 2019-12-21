@@ -1,8 +1,11 @@
 @media (min-width: 320px) {
     
     .main-map{
+        
+        position: relative;
+        z-index: -12;
   
-        width: 100%;
+    width: 100%;
     outline:2px red solid;
     
      &__container {  

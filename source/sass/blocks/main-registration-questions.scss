@@ -1,12 +1,19 @@
 @media (min-width: 320px) {
-    
-    .main-registration-questions{
+
+    .main-registration-questions {
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid red;
         display: flex;
+        background-color: #192144;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-radius:0 0 30px 30px;
+        margin-top: -30px;
+        position: relative;
+        z-index: -8;
 
-        &__container {  
+        &__container {
             margin: 0 auto;
             width: 320px;
             padding-left: 25px;
@@ -15,46 +22,148 @@
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
+            padding-top: 20px;
         }
-        
-        &__title{
-            
+
+        &__title {
+
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: #ff8d30;
+            margin-top: 20px;
+
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-        
-        &__text{
+
+        &__text {
             display: block;
+            font-family: "BloggerSans", sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+
+
             margin: 10px auto;
             width: 210px;
             outline: 2px solid green;
             text-align: center;
+
+            color: white;
         }
-        
-        &__list{
-            
-            
+
+
+        &__auth {
+            color: #ffd74b;
+            text-decoration: underline;
         }
-        
+
+        &__registration-form {
+            display: flex;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+        &__sub-inp {
+            flex-grow: 1;
+            height: 62px;
+            border-radius: 10px 0 0 10px;
+            border: 0;
+        }
+
+        &__button {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            width: 60px;
+            background-color: #ffd74b;
+            border-radius: 15px;
+            border: 0;
+            cursor: pointer;
+        }
+
+
+        &__button::after {
+
+            position: absolute;
+            content: "";
+            top: 23px;
+            right: 15px;
+            border: 8px solid transparent;
+            border-left: 8px solid #1d2e5b;
+
+        }
+
+        &__contact-list {
+
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        &__contact-item {
+
+            display: flex;
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            height: 43px;
+            list-style: none;
+
+        }
+
+
+
+
+        &__contact-item a {
+            display: flex;
+            flex-grow: 1;
+            border: 1px red solid;
+            color: #ffd74b;
+            text-decoration: none;
+            align-items: center;
+        }
+
+        &__icon {
+            display: block;
+            box-sizing: border-box;
+            width: 40px;
+            height: 43px;
+            border: 1px blue solid;
+            border-radius: 30px;
+            background-color: #121936;
+            margin-right: 30px;
+            padding-left: 8px;
+            padding-top: 9px;
+
+        }
+
+        &__icon path {
+            fill: #ffd74b;
+
+
+        }
+
     }
-            
+
 }
-        
+
 
 
 
 
 @media (min-width: 768px) {
-    
-    .main-registration-questions{
+
+    .main-registration-questions {
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid red;
         display: flex;
 
-        &__container {  
+        &__container {
             margin: 0 auto;
             width: 768px;
             padding-left: 40px;
@@ -64,37 +173,37 @@
             display: flex;
             flex-direction: column;
         }
-        
-        &__title{
-            
+
+        &__title {
+
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-        
-        &__text{
+
+        &__text {
             display: block;
             width: 100%;
             outline: 2px solid green;
             text-align: center;
         }
-        
+
     }
-            
+
 }
-        
+
 
 
 @media (min-width: 1440px) {
-    
-    .main-registration-questions{
+
+    .main-registration-questions {
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid red;
         display: flex;
 
-        &__container {  
+        &__container {
             margin: 0 auto;
             width: 1440px;
             padding-left: 60px;
@@ -104,23 +213,21 @@
             display: flex;
             flex-direction: column;
         }
-        
-        &__title{
-            
+
+        &__title {
+
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-        
-        &__text{
+
+        &__text {
             display: block;
             outline: 2px solid green;
             text-align: center;
         }
-        
+
     }
-            
+
 }
-        
-    

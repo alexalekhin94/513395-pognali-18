@@ -1,36 +1,79 @@
-.price-table p{
+.price-table p {
     margin: 0;
 }
 
 
-@media (min-width:320px){
-    
-    .price-table{
+@media (min-width:320px) {
+
+    .price-table {
         display: flex;
         flex-direction: column;
         outline: 1px red solid;
-        
-        &__row{
-//            display: flex;
+        counter-reset: variant;
+
+        &__row {
+            //            display: flex;
+            position: relative;
             width: 80%;
             outline: 1px blue solid;
             padding-top: 10px;
             padding-bottom: 10px;
+//            border-collapse: collapse;
+            
         }
-        
-        &__title{
+
+        &__title {
+            font-family: "BloggerSans", sans-serif;
+            font-size: 16px;
+            color: #717274;
             display: block;
             width: 100%;
             flex-grow: 0;
             outline: 1px red solid;
         }
-        
-        &__price{
+
+        &__row::after {
+             font-family: "BloggerSans", sans-serif;
+            color:white;
+            font-weight: bold;
+            box-sizing: border-box;
+            counter-increment: variant;
+            content: counter(variant);
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: 1px red solid;
+            border-radius: 50px;
+            top: 10px;
+            right: -45px;
+            padding-left: 14px;
+            padding-top:11px;
+        }
+
+
+        &__row:nth-child(1)::after {
+            background-color: #ffa530;
+        }
+
+        &__row:nth-child(2)::after {
+            background-color: #ffbd30;
+        }
+
+        &__row:nth-child(3)::after {
+            background-color: #ffd74b;
+        }
+
+
+
+        &__price {
+            font-family: "BloggerSans", sans-serif;
+            font-size: 16px;
+            color: #717274;
             display: block;
             width: 200px;
-        } 
-        
-     
+        }
+
+
     }
 }
 
@@ -42,64 +85,64 @@
 
 
 
-@media (min-width:768px){
-    
-    .price-table{
+@media (min-width:768px) {
+
+    .price-table {
         display: flex;
-//        height: 200px;
+        //        height: 200px;
         flex-direction: column;
         outline: 1px red solid;
-        
-        &__row{
+
+        &__row {
             display: flex;
             width: 100%;
             outline: 1px blue solid;
             padding-top: 10px;
             padding-bottom: 10px;
         }
-        
-        &__title{
+
+        &__title {
             display: block;
             flex-grow: 1;
             outline: 1px red solid;
         }
-        
-        &__price{
+
+        &__price {
             display: block;
             text-align: end;
             width: 200px;
-        } 
+        }
     }
 }
 
 
 
-@media (min-width:1440px){
-    
-    .price-table{
+@media (min-width:1440px) {
+
+    .price-table {
         display: flex;
         height: 200px;
         flex-direction: column;
         outline: 1px red solid;
-        
-        &__row{
+
+        &__row {
             display: flex;
             width: 905px;
             outline: 1px blue solid;
             padding-top: 10px;
             padding-bottom: 10px;
         }
-        
-        &__title{
+
+        &__title {
             display: block;
             flex-grow: 1;
             outline: 1px red solid;
         }
-        
-        &__price{
+
+        &__price {
             display: block;
             text-align: end;
             width: 200px;
-        } 
+        }
     }
 }

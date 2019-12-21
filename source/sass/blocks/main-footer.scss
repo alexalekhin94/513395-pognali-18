@@ -1,8 +1,12 @@
 @media (min-width: 320px) {
     .main-footer {
         display: flex;
-        height:154px;
-        
+        position: relative;
+        height: 154px;
+        margin-top: -20px;
+        border-radius: 20px 20px 0 0;
+        background-color: white;
+
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
@@ -15,31 +19,81 @@
             padding-left: 20px;
             padding-right: 20px;
             outline: 2px solid green;
-            box-sizing: border-box;}
-        
-        &__social-media{
+            box-sizing: border-box;
+        }
+
+        &__social-media {
             display: flex;
             padding: 0;
             margin: 0;
-            margin:0 auto;
+            margin: 0 auto;
             list-style: none;
-            outline: 2px solid red;
+            //            outline: 2px solid red;
         }
-        
+
         &__social-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: 1px green solid;
+            height: 46px;
+            width: 46px;
+            background-color: #ffd74b;
+            border-radius: 60px;
+        }
+
+
+        &__social-link svg {
+            fill: #192144;
+        }
+
+        &__logo {
             display: block;
-            
-            height: 40px;
-            width:40px;
-            outline: 2px red solid;
-            margin-left: 20px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        &__social-media-item {
+            margin: 0 auto;
+
+        }
+
+        &__developer {
+            display: flex;
+            justify-content: space-between;
+
+            margin-top: 10px;
+            outline: 1px green solid;
         }
         
-//         &__social-link:first-child {
-//            margin-left: 0px;
-//        }
-//        
         
+        &__developer-link{
+            display: flex;
+            
+            outline: 1px red solid;   
+        }
+
+        &__developer p{
+          
+           display: inline-block;
+//            margin: 0;
+            font-family: "BloggerSans", sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+             outline: 1px blue solid;
+            
+
+        }
+        
+        &__developer svg{
+            margin:auto;
+        }
+
+
+
+
+        //        
+
     }
 }
 
@@ -48,8 +102,8 @@
 @media (min-width: 768px) {
     .main-footer {
         display: flex;
-        height:154px;
-        
+        height: 154px;
+
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
@@ -61,31 +115,32 @@
             padding-left: 40px;
             padding-right: 40px;
             outline: 2px solid green;
-            box-sizing: border-box;}
-        
-        &__social-media{
+            box-sizing: border-box;
+        }
+
+        &__social-media {
             display: flex;
             padding: 0;
             margin: 0;
-            margin:0 auto;
+            margin: 0 auto;
             list-style: none;
             outline: 2px solid red;
         }
-        
+
         &__social-link {
             display: block;
-            
+
             height: 40px;
-            width:40px;
+            width: 40px;
             outline: 2px red solid;
             margin-left: 20px;
         }
-        
-//         &__social-link:first-child {
-//            margin-left: 0px;
-//        }
-//        
-        
+
+        //         &__social-link:first-child {
+        //            margin-left: 0px;
+        //        }
+        //        
+
     }
 }
 
@@ -94,8 +149,8 @@
 @media (min-width: 1440px) {
     .main-footer {
         display: flex;
-        height:154px;
-        
+        height: 154px;
+
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
@@ -107,30 +162,31 @@
             padding-left: 60px;
             padding-right: 60px;
             outline: 2px solid green;
-            box-sizing: border-box;}
-        
-        &__social-media{
+            box-sizing: border-box;
+        }
+
+        &__social-media {
             display: flex;
             padding: 0;
             margin: 0;
-            margin:0 auto;
+            margin: 0 auto;
             list-style: none;
             outline: 2px solid red;
         }
-        
+
         &__social-link {
             display: block;
-            
+
             height: 40px;
-            width:40px;
+            width: 40px;
             outline: 2px red solid;
             margin-left: 20px;
         }
-        
-//         &__social-link:first-child {
-//            margin-left: 0px;
-//        }
-//        
-        
+
+        //         &__social-link:first-child {
+        //            margin-left: 0px;
+        //        }
+        //        
+
     }
 }

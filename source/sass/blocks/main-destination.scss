@@ -1,8 +1,19 @@
 @media (min-width: 320px) {
     .main-destination {
+        outline: 2px solid orange;
+        position: relative;
+        z-index: -1;
+        
         box-sizing: border-box;
         width: 100%;
-        outline: 2px solid orange;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        border-radius: 0 0 35px 35px;
+        margin-top:-50px;
+ 
+        background-color: #edeff6;
+         
+      
 
         &__container {
             margin: 0 auto;

@@ -1,26 +1,66 @@
 @media (min-width: 320px) {
     .main-profile-add{
+        outline: 2px solid orange;
+        position: relative;
+        z-index: -7;
+        
         box-sizing: border-box;
         width: 100%;
-        outline: 2px solid orange;
+        padding-bottom: 30px;
+        border-radius:0 0 30px 30px;
+        
+        background-color: #edeff6;
+        margin-top: -30px;
+        
+       
+        
+        
 
         &__container{    
             margin: 0 auto;
             width: 320px;
             padding-left: 25px;
             padding-right: 25px;
+            padding-top: 53px;
+            padding-bottom: 20px;
             outline: 2px solid green;
             box-sizing: border-box;
+            
+            background:  url(/source/img/rates@1x.png) no-repeat;
+            background-size: 30%;
+            background-position: 80% 20%;
+            background-color: #edeff6;
+            
+            
+          
         }
         
         &__title{
+            font-family: "BloggerSans", sans-serif;
+            font-size: 24px;
+            color:#ff8d30;
             padding: 0;
             margin: 0;
-            text-align: center;
+            width: 120px;
+            
         }
         
         
+        &__price-table{
+            margin-top: 20px;
+            
+            
+        } 
+        
       &__buisnes{
+          
+        font-family: "BloggerSans", sans-serif;
+        font-size: 16px;
+          text-decoration: none;
+          text-align: center;
+          
+          font-weight: bold;
+          color:#192144;
             
           display: block;
            outline: 2px red solid;
