@@ -95,10 +95,11 @@
 @media (min-width: 768px) {
     .destination-card {
         width: 100%;
-        outline: 2px red solid;
-        border: 2px red solid;
-        border-radius: 10px;
-        display: flex;
+        height: 151px;
+        
+        
+        
+        border-radius: 20px;
         flex-direction: row;
 
         &__main-information {

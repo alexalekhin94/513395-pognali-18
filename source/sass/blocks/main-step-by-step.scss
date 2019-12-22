@@ -33,6 +33,12 @@
         }
         
           &__to-do-list p{
+              
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size:18px;
+            color: #161c35;
+            
             
             margin: 0;
             padding: 0;
@@ -42,10 +48,7 @@
         }
         
         &__to-do-list-item{
-            font-family: "BloggerSans", sans-serif;
-            font-weight: bold;
-            font-size:18px;
-            
+
             position: relative;
             box-sizing: border-box;
 
@@ -61,6 +64,10 @@
         }
         
         &__to-do-list-item::before{
+            
+            font-family: "BloggerSans", sans-serif;
+            font-size: 20px;
+            
             position: absolute;
             
             width: 20px;
@@ -152,19 +159,26 @@
 
 @media (min-width: 768px) {
     .main-steps {
-        margin-top: -74px;
-        height:380px;
-        box-sizing: border-box;
+        margin-top: -170px;
+        padding-bottom: 40px;
+//        box-sizing: border-box;
         width: 100%;
-        outline: 2px solid blue;
-
+//        outline: 5px solid blue;
+        background-color: transparent;
+        
+//        background-image: linear-gradient(to bottom,transparent 138px,#192144 38px,#192144 100%);
+        
+        background-image: linear-gradient(to bottom,transparent 50%,#192144 50%,#192144 100%);
+        
+        
+        
         &__container {
 //     
             margin: 0 auto;
-            align-items: flex-start;
             width: 768px;
             padding-left: 40px;
             padding-right: 40px;
+            
             outline: 2px solid green;
             box-sizing: border-box;
         }
@@ -182,27 +196,32 @@
         }
         
           &__to-do-list p{
-            
-            margin: 0;
-            padding: 0;
+              
+            font-family: "BloggerSans", sans-serif;
+            font-weight: bold;
+            font-size:24px;
+            width: 200px;
+              
             
         }
         
         &__to-do-list-item{
+            height: 140px;
+            
             box-sizing: border-box;
             margin-top: 0px;
             margin-bottom: 0px;
             margin-left:    0px;
             border: 2px green solid;
             border-radius: 20px;
-            padding-left: 40px;
+            padding-left: 33px;
             padding-right: 30px;
-            padding-top: 20px;
+            padding-top: 33px;
             padding-bottom: 36px;
             
         }
         
-//        НЕ МОГУ ПОНЯТЬ ПОЧЕМУ ЧЕРЕЗ FIRSTCHILD не получается
+
         &__to-do-list-item--item1{
             border-radius: 20px 20px 0 0;
             
@@ -260,6 +279,16 @@
             padding: 0;
             margin: 0;
             margin-bottom: 20px;
+        }
+        
+        
+        &__to-do-list-item::before{
+         
+            width: 20px;
+            height: 20px;  
+            top: 100px;
+            left: 35px;
+            font-size: 28px;       
         }
 
 

@@ -1,6 +1,26 @@
 @media (min-width: 320px) {
 
     .button {
+        
+        display: block;
+            position: relative;
+         
+            
+            font-family: "BloggerSans", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            
+            color:#1d2e5b;
+            text-decoration: none;
+
+            box-sizing: border-box;
+//            width: auto;
+            height: 62px;
+            padding-top: 20px;
+            padding-left:20px;
+            background-color:#ffd74b;
+            border-radius: 10px;
+            outline: 2px red solid;
        
         
         &__destination {
@@ -35,9 +55,7 @@
             right: 20px;
             
             border: 8px solid transparent; 
-            border-left: 8px solid #1d2e5b;
-            
-            
+            border-left: 8px solid #1d2e5b; 
         }
     }
 }

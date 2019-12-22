@@ -27,6 +27,10 @@
         }
 
         &__title {
+            
+            padding: 0;
+            margin: 0;
+            
             font-family: "BloggerSans", sans-serif;
             font-size: 24px;
             font-weight: bold;
@@ -34,11 +38,12 @@
         }
 
         &__discription {
+            margin: 0;
 
             font-family: "BloggerSans", sans-serif;
             font-size: 16px;
             font-weight: 300;
-            color: black;
+            color: #444444;
         }
 
 
@@ -92,10 +97,31 @@
                 display: flex;
                 flex-direction: column;
             }
+            
+            &__title{
+                
+                 font-size: 45px;
+                
+            }
+            
+            &__discription {
+                
+            width: 360px;
+            margin-top: 30px;
+                
+
+            font-size: 28px;
+            font-weight: 300;
+            color: black;
+                
+        }
+            
+            
 
             &__destination-list {
                 list-style: none;
                 padding: 0;
+                margin-top: 20px;
 
             }
 
