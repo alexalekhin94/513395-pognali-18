@@ -16,7 +16,9 @@
         
         
 
-        &__container{    
+        &__container{ 
+            position: relative;
+            z-index: 1;
             margin: 0 auto;
             width: 320px;
             padding-left: 25px;
@@ -26,14 +28,27 @@
             outline: 2px solid green;
             box-sizing: border-box;
             
-            background:  url(/source/img/rates@1x.png) no-repeat;
-            background-size: 30%;
-            background-position: 80% 20%;
+//            background:  url(/source/img/rates@1x.png) no-repeat;/
+//            background-size: 30%;
+//            background-position: 80% 20%;
             background-color: #edeff6;
             
-            
-          
         }
+        
+        &__container::after{
+            position: absolute;
+            content: "";
+            height: 105px;
+            width: 105px;
+            top:40px;
+            right: 25px;
+            background:  url(/source/img/rates@1x.png) no-repeat;
+            background-size: 100%;
+            
+             
+        }
+        
+        
         
         &__title{
             font-family: "BloggerSans", sans-serif;
@@ -62,10 +77,12 @@
           font-weight: bold;
           color:#192144;
             
-          display: block;
+         
            outline: 2px red solid;
           
           margin-top: 20px;
+            cursor: pointer;
+          
         } 
         
     }
@@ -88,17 +105,33 @@
         }
         
         &__title{
+            font-size: 45px;
+            width:auto;
             padding: 0;
-            margin: 0;
+            margin: 0 auto;
+            margin-top: 30px;
             text-align: center;
         }
         
         
         &__buisnes{
             display: block;
+            width: 400px;
             text-decoration: none;
             color: black;
-            margin-top: 20px;
+            margin-top: 60px;
+            margin-bottom: 100px;
+            
+            cursor: pointer;
+        }
+        
+        &__container::after{
+            
+            top:inherit;
+            z-index: -1;//
+            bottom: 70px;
+            right: 45px;
+            
             
         }
         
