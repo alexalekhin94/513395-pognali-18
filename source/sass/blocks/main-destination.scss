@@ -1,12 +1,12 @@
 @media (min-width: 320px) {
     .main-destination {
-        outline: 2px solid orange;
+        display: flex;
         position: relative;
-        z-index: -1;
-        
+        z-index: 900;
+        padding-top: 100px;
+
         box-sizing: border-box;
         width: 100%;
-        padding-top: 70px;
         padding-bottom: 70px;
         border-radius: 0 0 35px 35px;
         margin-top:-50px;
@@ -20,7 +20,7 @@
             width: 320px;
             padding-left: 25px;
             padding-right: 25px;
-            outline: 2px solid green;
+            outline: 2px solid red;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
@@ -56,20 +56,10 @@
 //            outline: 1px blue solid;
         }
         
-        
-        &__main-picture{
-            
-            
-        }
-        
+
         
 
-        &__button {
-            text-decoration: none;
-            height: 30px;
-            outline: 2px red solid;
-
-        }
+      
 
     }
 }
@@ -185,6 +175,7 @@
 
                 height: 30px;
                 outline: 2px red solid;
+                 cursor: pointer;
 
             }
 
@@ -212,9 +203,10 @@
             }
 
             &__info {
-                width: 450px;
-                margin-left: 80px;
-                color: red;
+                width: 40%;
+                margin-top: 20px;
+
+                 outline: 2px solid red;
             }
 
             &__title {
@@ -223,10 +215,20 @@
             }
 
             &__destination-list {
+                width: 60%;
                 list-style: none;
                 padding: 0;
+                outline: 2px solid red;
                 order: -1;
             }
+            
+            
+              &__button {
+            
+            margin-left: 62%;
+            margin-top: -8%;
+
+        }
 
 
         }

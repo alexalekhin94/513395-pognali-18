@@ -12,13 +12,14 @@
         counter-reset: variant;
 
         &__row {
+            margin: 0;
+            padding: 0;
             //            display: flex;
             position: relative;
             box-sizing: border-box;
             width: 80%;
             outline: 1px blue solid;
-           
-            padding-left: 90px;
+  padding-left: 90px;
 
             
         }
@@ -75,7 +76,7 @@
             display: block;
             width: 200px;
         }
-
+        
 
     }
 }
@@ -93,7 +94,6 @@
     .price-table {
         position: relative;
         display: flex;
-        //        height: 200px;
         flex-direction: column;
         outline: 1px red solid;
 
@@ -145,10 +145,7 @@
         width: 200px;
         border-radius: 30px;
         background-color: #e2e5f2;
-        
-        
-        
-        
+
     }
 }
 
@@ -158,20 +155,23 @@
 
     .price-table {
         display: flex;
-        height: 200px;
+        margin-top: 140px;
         flex-direction: column;
         outline: 1px red solid;
 
         &__row {
             display: flex;
-            width: 905px;
-            outline: 1px blue solid;
+            width: 70%;
+            height: 70px;
+            outline: 3px blue solid;
             padding-top: 10px;
             padding-bottom: 10px;
         }
 
         &__title {
-            display: block;
+            display: flex;
+            font-size: 28px;
+            align-items: center;
             flex-grow: 1;
             outline: 1px red solid;
         }
@@ -182,4 +182,14 @@
             width: 200px;
         }
     }
+    
+    .price-table:after{
+        width: 440px;
+        height: 295px;
+        right: 250px;
+        top:-45px;
+        
+    }
+    
+    
 }

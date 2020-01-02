@@ -1,6 +1,7 @@
 @media (min-width: 320px) {
 
     .main-registration-questions {
+        font-family: "BloggerSans", sans-serif;
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid red;
@@ -11,7 +12,7 @@
         border-radius:0 0 30px 30px;
         margin-top: -30px;
         position: relative;
-        z-index: -8;
+        z-index: 600;
 
         &__container {
             margin: 0 auto;
@@ -27,7 +28,7 @@
 
         &__title {
 
-            font-family: "BloggerSans", sans-serif;
+            
             font-weight: bold;
             font-size: 24px;
             color: #ff8d30;
@@ -41,7 +42,7 @@
 
         &__text {
             display: block;
-            font-family: "BloggerSans", sans-serif;
+//            font-family: "BloggerSans", sans-serif;
             font-weight: 300;
             font-size: 16px;
 
@@ -77,11 +78,17 @@
             padding: 0;
             margin: 0;
             position: relative;
-            width: 60px;
+            width: 20%;
             background-color: #ffd74b;
             border-radius: 15px;
             border: 0;
             cursor: pointer;
+        }
+        
+        
+        &__button span{
+            
+            display: none;
         }
 
 
@@ -128,7 +135,9 @@
         }
 
         &__icon {
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             box-sizing: border-box;
             width: 40px;
             height: 43px;
@@ -136,16 +145,19 @@
             border-radius: 30px;
             background-color: #121936;
             margin-right: 30px;
-            padding-left: 8px;
-            padding-top: 9px;
+            fill:#ffd74b;
+            
+        
 
         }
+        
 
         &__icon path {
             fill: #ffd74b;
-
-
         }
+        
+        
+        
 
     }
 
@@ -162,6 +174,9 @@
         width: 100%;
         outline: 2px solid red;
         display: flex;
+        
+        
+//        font-size: 28px;
 
         &__container {
             margin: 0 auto;
@@ -184,9 +199,27 @@
 
         &__text {
             display: block;
+            font-size: 28px;
             width: 100%;
             outline: 2px solid green;
             text-align: center;
+        }
+        
+        &__contact-text{
+            font-size: 28px;
+            
+        }
+        
+        &__icon{
+            height: 68px;
+            width: 68px;
+            
+  
+        }
+        
+        &__contact-item{
+            width: 60%;
+            height: 70px;
         }
 
     }
@@ -227,7 +260,44 @@
             outline: 2px solid green;
             text-align: center;
         }
-
+        &__contact-list {
+            display: flex;
+            margin-left: 240px;
+             margin-right: 240px;
+            
+        }
+        
+          &__contact-item{
+            width: 50%;
+            height: 70px;
+        }
+        
+        &__button{
+            display: flex;
+            
+            
+            padding: 0;
+            margin: 0;
+            width: 325px;
+            border-radius: 0 15px 15px 0;
+            outline: 1px red solid;
+            
+        }
+        
+        &__button span{
+           
+            font-family: "BloggerSans", sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #192144;
+             outline: 1px red solid;
+            margin-left: 40px;
+            
+            
+            display: block;
+        }
+        
+        
     }
 
 }

@@ -2,7 +2,7 @@
     .main-companion {
         outline: 2px solid orange;
         position: relative;
-        z-index: -3;
+        z-index: 800;
 
         padding-bottom: 40px;
         margin-top: -30px;
@@ -127,15 +127,12 @@
 
 
 
-
-        &__button {
-            margin-top: -100px;
-            margin-left: 20px;
-
-
-
-
-        }
+//
+//        &__button {
+//            margin-top: -100px;
+//            margin-left: 20px;
+//
+//        }
 
     }
 }
@@ -209,10 +206,10 @@
 
 
 
-        &__button {
-            margin-top: -100px;
-            margin-left: 20px;
-        }
+//        &__button {
+//            margin-top: -100px;
+//            margin-left: 20px;
+//        }
 
 
         &__container::after {
@@ -274,6 +271,9 @@
 
 @media (min-width: 1440px) {
     .main-companion {
+        
+        padding-top: 100px;
+        padding-bottom: 200px;
 
         box-sizing: border-box;
         width: 100%;
@@ -289,6 +289,21 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+        }
+        
+        
+        &__container::before{
+            top: 80px;
+            left: 550px;
+            
+            
+        }
+        
+        
+        &__companion-list::before{
+            left: 200px;
+            top:300px;
+            
         }
 
         &__item {

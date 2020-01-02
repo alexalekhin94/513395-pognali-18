@@ -1,62 +1,70 @@
 @media (min-width: 320px) {
 
     .button {
-        
-        display: block;
-            position: relative;
-         
-            
-            font-family: "BloggerSans", sans-serif;
-            font-size: 18px;
-            font-weight: bold;
-            
-            color:#1d2e5b;
-            text-decoration: none;
 
-            box-sizing: border-box;
-//            width: auto;
-            height: 62px;
-            padding-top: 20px;
-            padding-left:20px;
-            background-color:#ffd74b;
-            border-radius: 10px;
-            outline: 2px red solid;
-       
-        
+        display: block;
+        position: relative;
+        font-family: "BloggerSans", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #1d2e5b;
+        text-decoration: none;
+        box-sizing: border-box;
+        height: 62px;
+        padding-top: 20px;
+        padding-left: 20px;
+        background-color: #ffd74b;
+        border-radius: 10px;
+        outline: 2px red solid;
+        cursor: pointer;
+
+
         &__destination {
             display: block;
             position: relative;
-         
-            
             font-family: "BloggerSans", sans-serif;
             font-size: 18px;
             font-weight: bold;
-            
-            color:#1d2e5b;
+            color: #1d2e5b;
             text-decoration: none;
-
             box-sizing: border-box;
             width: auto;
             height: 62px;
             padding-top: 20px;
-            padding-left:20px;
+            padding-left: 20px;
             margin-top: 30px;
-            background-color:#ffd74b;
+            background-color: #ffd74b;
             border-radius: 10px;
             outline: 2px red solid;
+            
+            cursor: pointer;
         }
-        
-        &__destination::before{
-            position: absolute;
-            
-            content: "";
-            
 
-            top:23px;
+        &__destination::before {
+            position: absolute;
+
+            content: "";
+
+
+            top: 23px;
             right: 20px;
-            
-            border: 8px solid transparent; 
-            border-left: 8px solid #1d2e5b; 
+
+            border: 8px solid transparent;
+            border-left: 8px solid #1d2e5b;
         }
     }
+}
+
+
+@media (min-width: 1440px){
+    
+    .button {
+        width: 276px;
+        
+        
+        
+    }
+    
+    
+    
 }

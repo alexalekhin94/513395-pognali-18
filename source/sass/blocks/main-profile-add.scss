@@ -1,23 +1,25 @@
 @media (min-width: 320px) {
-    .main-profile-add{
+    .main-profile-add {
         outline: 2px solid orange;
         position: relative;
-        z-index: -7;
-        
+        z-index: 700;
+
         box-sizing: border-box;
         width: 100%;
         padding-bottom: 30px;
-        border-radius:0 0 30px 30px;
-        
+        border-radius: 0 0 30px 30px;
+
         background-color: #edeff6;
         margin-top: -30px;
-        
-       
-        
-        
 
-        &__container{ 
+
+
+
+
+        &__container {
             position: relative;
+            display: flex;
+            flex-direction: column;
             z-index: 1;
             margin: 0 auto;
             width: 320px;
@@ -27,75 +29,66 @@
             padding-bottom: 20px;
             outline: 2px solid green;
             box-sizing: border-box;
-            
-//            background:  url(/source/img/rates@1x.png) no-repeat;/
-//            background-size: 30%;
-//            background-position: 80% 20%;
             background-color: #edeff6;
-            
+
         }
-        
-        &__container::after{
+
+        &__container::after {
             position: absolute;
             content: "";
             height: 105px;
             width: 105px;
-            top:40px;
+            top: 40px;
             right: 25px;
-            background:  url(/source/img/rates@1x.png) no-repeat;
+            background: url(/source/img/rates@1x.png) no-repeat;
             background-size: 100%;
-            
-             
+
+
         }
-        
-        
-        
-        &__title{
+
+
+
+        &__title {
             font-family: "BloggerSans", sans-serif;
             font-size: 24px;
-            color:#ff8d30;
+            color: #ff8d30;
             padding: 0;
             margin: 0;
             width: 120px;
-            
+
         }
-        
-        
-        &__price-table{
+
+
+        &__price-table {
             margin-top: 20px;
-            
-            
-        } 
-        
-      &__buisnes{
-          
-        font-family: "BloggerSans", sans-serif;
-        font-size: 16px;
-          text-decoration: none;
-          text-align: center;
-          
-          font-weight: bold;
-          color:#192144;
-            
-         
-           outline: 2px red solid;
-          
-          margin-top: 20px;
+
+
+        }
+
+        &__buisnes {
+
+            font-family: "BloggerSans", sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+            outline: 2px red solid;
+            margin-top: 20px;
             cursor: pointer;
-          
-        } 
-        
+            color: #132576;
+
+        }
+
     }
 }
 
 
 @media (min-width: 768px) {
-    .main-profile-add{
+    .main-profile-add {
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid orange;
 
-        &__container{    
+        &__container {
             margin: 0 auto;
             width: 768px;
             padding-left: 40px;
@@ -104,55 +97,95 @@
             box-sizing: border-box;
         }
         
-        &__title{
+        
+        &__container::after {
+       
+            height: 105px;
+            width: 105px;
+            top: 370px;
+            right: 70px;
+            background: url(/source/img/rates@1x.png) no-repeat;
+            background-size: 100%;
+
+
+        }
+        
+        
+        
+
+        &__title {
             font-size: 45px;
-            width:auto;
+            width: auto;
             padding: 0;
             margin: 0 auto;
             margin-top: 30px;
             text-align: center;
         }
-        
-        
-        &__buisnes{
-            display: block;
-            width: 400px;
-            text-decoration: none;
-            color: black;
+
+
+        &__buisnes {
+            display: flex;
+            position: relative;
+            box-sizing: border-box;
+            width: 70%;
+            font-size: 20px;
             margin-top: 60px;
-            margin-bottom: 100px;
-            
             cursor: pointer;
-        }
-        
-        &__container::after{
-            
-            top:inherit;
-            z-index: -1;//
-            bottom: 70px;
-            right: 45px;
-            
-            
+          
+           
         }
         
         
+        &__buisnes-icon{
+            box-sizing: border-box;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+//            padding-left: 20px;
+            
+            height: 70px;
+            width: 70px;
+            content: ""; 
+            background: #e2e5f2;
+          
+            border-radius: 50px;
+        }
+        
+        
+          &__buisnes-icon {
+              
+              outline: 1px red solid;
+              fill:red;
+        
+        }
         
         
         
+        &__buisnes p{
+            margin:0;
+            padding: 0;
+            align-self: center;
+            margin-left: 30px;
+              
+        }
+
     }
 }
 
 
 @media (min-width: 1440px) {
-    .main-profile-add{
+    .main-profile-add {
         box-sizing: border-box;
+        padding-top: 100px;
         width: 100%;
         outline: 2px solid red;
 
-        &__container {  
+        &__container {
             margin: 0 auto;
             width: 1440px;
-            padding-left: 60px;
+            padding-left: 70px;
             padding-right: 60px;
             outline: 2px solid green;
             box-sizing: border-box;
@@ -160,19 +193,33 @@
             flex-direction: column;
         }
         
-        &__title{
+        
+        &__container::after {
+         
+            height: 245px;
+            width: 245px;
+            top: 250px;
+            right: 150px;
+            background: url(/source/img/rates@1x.png) no-repeat;
+            background-size: 80%;
+
+
+        }
+        
+
+        &__title {
             padding: 0;
             margin: 0;
             text-align: center;
         }
-        
-        
-        &__buisnes{
+
+
+        &__buisnes {
             text-decoration: none;
             color: black;
             margin-top: 20px;
-            
+
         }
-        
+
     }
 }

@@ -1,6 +1,8 @@
 @media (min-width: 320px) {
     .main-about {
         display: flex;
+        position: relative;
+        z-index: 1000;
         box-sizing: border-box;
         width: 100%;
         height: 353px;
@@ -185,9 +187,45 @@
             padding-left: 60px;
             padding-right: 60px;
             padding-top: 1px;
-            outline: 8px solid green;
+            outline: 2px solid green;
             box-sizing: border-box;
         }
+        
+        
+        
+        &__container::after{
+            width: 630px;
+            height:710px;
+            outline: 2px red solid;
+            position: absolute;
+            top:20px;
+            left:inherit;
+            right: 0px;
+            
+            z-index: -1;
+            content: "";
+            background: url(/source/img/about-desktop@1x.png) no-repeat;
+            background-size: contain; 
+                
+        }
+        
+        
+        
+        
+        &__container::before{
+            position: absolute;
+            top:80px;
+            left:0px;
+            
+            z-index: -10;
+            content: "";
+            width: 213px;
+            height: 213px;
+            border-radius: 15px;
+            background-color: #141b3b;     
+        }
+        
+        
 
 
         //        Какое-то странное поведение h2 с верхним марджином, решилось добавление топ паддинга в 1зчж

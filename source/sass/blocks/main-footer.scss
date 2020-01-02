@@ -88,11 +88,7 @@
         &__developer svg{
             margin:auto;
         }
-
-
-
-
-        //        
+     
 
     }
 }
@@ -128,18 +124,14 @@
         }
 
         &__social-link {
-            display: block;
+    
 
             height: 40px;
             width: 40px;
             outline: 2px red solid;
             margin-left: 20px;
         }
-
-        //         &__social-link:first-child {
-        //            margin-left: 0px;
-        //        }
-        //        
+     
 
     }
 }
@@ -156,7 +148,9 @@
         outline: 2px solid blue;
 
         &__container {
-            display: flex;
+           
+            flex-direction: row;
+            align-items: center;
             margin: 0 auto;
             width: 1440px;
             padding-left: 60px;
@@ -166,27 +160,46 @@
         }
 
         &__social-media {
-            display: flex;
-            padding: 0;
-            margin: 0;
-            margin: 0 auto;
+            
+//            padding: 0;
+//            margin: 0;
+           
             list-style: none;
             outline: 2px solid red;
         }
 
         &__social-link {
-            display: block;
+            
 
-            height: 40px;
-            width: 40px;
+            height: 60px;
+            width: 60px;
             outline: 2px red solid;
-            margin-left: 20px;
+            margin: 0;
         }
-
-        //         &__social-link:first-child {
-        //            margin-left: 0px;
-        //        }
-        //        
+        
+        
+        &__logo {
+            display: none;
 
     }
+        
+        &__developer{
+            display: flex;
+            margin: 0;
+            width: 160px;
+        }
+        
+        &__logo {
+            margin: 0;
+            display: block;
+            width:200px;
+            height: 50px;
+            outline: 1px red solid;
+            
+            background-image: url("/source/img/logo-tablet-blue@1x.png");
+            background-repeat: no-repeat;
+        }
+        
+        
+}
 }
