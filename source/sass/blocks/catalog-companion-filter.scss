@@ -2,23 +2,29 @@
 
     .catalog-companion-filter {
         font-family: "BloggerSans", sans-serif;
-
         padding-top: 16px;
-        padding-left: 16px;
-       
-        outline: 4px black solid;
+//        padding-left: 16px;
+        outline: 2px black solid;
         display: flex;
         flex-direction: column;
 
         
         
         &__container{
-            background-color: #ffd74b;
             
+            outline: 6px green solid;
+            background-color: #ffd74b;
+            padding-left: 45px;
+            padding-right: 45px; 
             
         }
-      
-    
+        
+        &__filter-option{
+            padding: 0;
+            border: 0px;
+            
+        }
+        
     
         &__option-list{
             margin: 0;
@@ -67,27 +73,52 @@
         }
         
         
-        &__option-transport{
-            height: 40px;
-            width: 40px;
-            border-radius: 20px;
-            border: 1px red solid;
-            margin-right: 5px;
-            background: white;
-            
+        &__filter-option-transport{
+            display: block;
         }
         
         
         &__option-list-transport{
+            margin: 0;
             display: flex;
+            width: 176px;
+            
             list-style: none;
-        
+            padding: 0;
+            outline: 2px green solid;
+            margin:0 auto;
+            
+
         }
         
+        
+        
+        &__option-transport{
+            
+            height: 40px;
+            width: 40px;
+            float: left;
+            
+            border-radius: 20px;
+            border: 1px red solid;
+            margin-right: 5px;
+            background: white;
+             margin-right:5px
+        }
+        
+        
+        &__option-transport:last-child{
+            
+             margin-right:0px
+            
+        }
+        
+        
+   
+        
         &__label-wrapper-transport{
-            display: block;
-//            padding-left: 10px;
-            outline: 1px green solid;
+
+            justify-content: center;
             height: 100%;
             width: 100%;
             
@@ -104,12 +135,9 @@
         
         
         &__checkbox-wrapper-transport svg{
-            margin: 0;
-            
-            margin-top: -12px;
-            margin-left: 2px;
-//            fill:red;
 
+            width: 100%; 
+            margin-top: 4px;
             outline: 1px red solid;
         }
         
@@ -156,8 +184,8 @@
         
         &__filter-option-level{
             padding: 0;
-            outline: 5px blue solid;
-            padding-left: 32px;
+            border: 0px;
+
             
         }
         
@@ -215,20 +243,79 @@
             outline: none;
         }
         
+        
+        &__scale-wrapper{
+            position: relative;
+            
+            outline: 2px red solid;
+            
+            
+        }
+        
 
         
-        &__range-controls{
-            
-                  padding: 0;
-            margin-top: 20px;
-            height: 90px;
+
+        
+        &__scale{
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom:30px;
+            padding: 0;
+
             width: 100%;
- 
-            outline: 1px red solid;
+
+            height: 2px;
+            
+            background-color: #d2b54e;
             
         }
         
         
+        &__bar{
+            height: 2px;
+            background-color: #1d2e5b;
+            
+            
+        }
+        
+        
+        &__toggle{
+            position: absolute;
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #1d2e5b;
+            border-radius: 15px;
+            top:0;
+            transform: translate(0%,-4px);
+            
+            
+        }
+        
+        
+        &__toggle-min{
+            margin-left: 20%;
+            
+        }
+        
+        &__toggle-max{
+            margin-left: 80%;
+            
+        }
+        
+        
+        &__button{
+           
+            margin: 0;
+            padding: 0;
+            background: white;
+            width: 100%;
+            border-radius: 50px;
+            color: #161c35;
+            text-align: center;
+            outline: 1px green solid;
+            
+        }
         
         
     }
@@ -247,12 +334,19 @@
     
     
       &__container{
-            margin: 0;
-          padding: 0;
-            width: 100%;
+          padding-left: 40px;
+          padding-right:40px;
+          width: 100%;
             
             
         }
+         
+         
+         &__button{
+             height: 50px;
+             
+             
+         }
     }
     
 
