@@ -1,5 +1,6 @@
 @import "variable.scss";
 @import "mixins.scss";
+@import "blocks/container.scss";    
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/main-intro.scss";
@@ -21,3 +22,9 @@
 @import "blocks/main-map.scss";
 @import "blocks/main-footer.scss";
 @import "fonts.scss";
+@import "blocks/catalog-companion.scss";
+@import "blocks/catalog-companion-card.scss";
+@import "blocks/catalog-companion-filter.scss";
+
+
+
