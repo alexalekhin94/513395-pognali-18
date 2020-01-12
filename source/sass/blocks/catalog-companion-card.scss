@@ -2,19 +2,15 @@
 
     .catalog-companion-card {
         font-family: "BloggerSans", sans-serif;
+        background: white;
 
         padding-top: 16px;
         padding-left: 16px;
-       
-        outline: 3px black solid;
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
 
-//        &__photo-name-likes {
-//            display: flex;
-//
-//        }
+
 
         &__image {
             height: 70px;
@@ -138,7 +134,34 @@
 
         }
 
-        &__transport-item svg{}
+        &__transport-item {
+            
+            
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            border-radius: 30px;
+            background-color: #edeff6;
+            width: 32px;
+            height: 32px;
+        }
+        
+        &__transport-item svg{
+            display: block;
+            margin: 0 auto;
+            align-self: center;
+            outline: 1px red solid;
+            fill:#cacbd1;
+            width:65%;
+            height: 65%;
+
+        }
+        
+        
+        &__transport--active svg {
+            
+            fill:#1d2e5b;
+        }
 
 
         &__transport-level-block {
@@ -169,8 +192,47 @@
         &__level {
             outline: 1px red solid;
             display: block;
+        }
+        
+        &__show-more{
+            
+            display: flex;
+            outline: 1px red solid;
+            margin: 0 auto;
+            margin-top: 20px;
+             
+           text-decoration: none;
+                   
+            
+        }
+        
+        
+        &__show-more svg {
+            height: 17px;
+            width: 17px;
+            fill: #1d2e5b;
+// 
+            
+            
+        }
+        
+        &__show-more span{
+            display: block;
+//            height: 17px;
+
+            font-family: "BloggerSans", sans-serif;
+            text-transform: uppercase;
+//            box-sizing: border-box;
+            margin-left: 10px;
+    
 
 
+            color:#1d2e5b;
+            font-weight: bold;
+            font-size: 17px;
+            outline: 1px red solid;
+           
+           
         }
 
 
@@ -268,19 +330,7 @@
             
         }
         
-        
-//        
-//         &__likes {
-//            display: flex;
-//            width: 100px;
-//            height: 30px;
-//            margin-left: 40px;
-//            margin-top: 10px;
-//            outline: 1px red solid;
-//        }
-//        
-        
-        
+
         
         &__countries-wrapper{
             order: 8;
@@ -367,6 +417,19 @@
             margin-top: -75px;
             margin-left: -150px;
            
+        }
+        
+           &__show-more svg {
+            height: 27px;
+            width: 27px;
+  
+        }
+        
+            &__show-more span{
+                line-height: 27px;;
+                
+                
+                
         }
 
 

@@ -2,7 +2,8 @@
 
 
     .catalog-companion-filter-wrapper {
-        outline: 4px red solid;
+        outline: 4px black solid;
+        background: #edeff6;
     }
 
 
@@ -40,9 +41,7 @@
             outline: 2px solid orange;
             order: -1;
         }
-
-
-    }
+            }
 }
 
 
@@ -72,11 +71,12 @@
 
 
 @media (min-width: 1440px) {
+    
 
 
     .catalog-companion-filter-wrapper {
 
-        outline: 10px green solid;
+        outline: 4px black solid;
         justify-content: space-between;
         display: flex;
         width: 1440px;
@@ -84,7 +84,6 @@
         box-sizing: border-box;
         padding-left: 60px;
         padding-right: 60px;
-
     }
 
 

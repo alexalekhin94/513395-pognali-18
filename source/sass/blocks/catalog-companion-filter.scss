@@ -47,6 +47,7 @@
             display: flex;
             width: 130px;        
             outline: 1px green solid; 
+            cursor: pointer;
             
         }
         
@@ -65,8 +66,8 @@
         
         &__check-input:checked +.catalog-companion-filter__checkbox-wrapper {
             
-        background-image: url("/source/img/tick.svg");
-            background-size: 80%;
+            background-image: url("../img/tick.svg");
+            background-size: 60%;
             background-repeat: no-repeat;
             background-position: center;
             
