@@ -21,23 +21,22 @@
 }
 
 @media (min-width:728px){
-.contact-list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    outline: 2px blue solid;
-    &__link{
-        color: black;
-        display: block;
-    }
-    &__item{
-        outline: 1px red solid;
-        margin-bottom: 10px;
-    }
-    &__item:first-child{
+    .contact-list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        outline: 2px blue solid;
+        &__link{        color: black;
+            display: block;
+        }
+        &__item{
+            outline: 1px red solid;
+            margin-bottom: 10px;
+        }
+        &__item:first-child{
          outline: 1px red solid;
          margin-left: 0px;
-    }
+        }
     }
 }
 
@@ -53,14 +52,14 @@
     &__link{
         color: black;
         display: block;
-    }
+        }
     &__item{
         outline: 1px red solid;
-        margin-left: 230px; 
-    }
-    &__item:first-child{
-         outline: 1px red solid;
-         margin-left: 0px;
-    } 
+        margin-left: 230px;
+        }
+    &__item:first-child {
+        outline: 1px red solid;
+        margin-left: 0px;
+        }
     }
 }
