@@ -6,7 +6,6 @@
         margin-top: -20px;
         border-radius: 20px 20px 0 0;
         background-color: white;
-
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
@@ -28,9 +27,7 @@
             margin: 0;
             margin: 0 auto;
             list-style: none;
-            //            outline: 2px solid red;
         }
-
         &__social-link {
             display: flex;
             justify-content: center;
@@ -41,55 +38,38 @@
             background-color: #ffd74b;
             border-radius: 60px;
         }
-
-
         &__social-link svg {
             fill: #192144;
         }
-
         &__logo {
             display: block;
             margin: 0 auto;
             margin-top: 20px;
         }
-
         &__social-media-item {
             margin: 0 auto;
-
         }
-
         &__developer {
             display: flex;
             justify-content: space-between;
-
             margin-top: 10px;
             outline: 1px green solid;
         }
-        
-        
         &__developer-link{
             display: flex;
-            
-            outline: 1px red solid;   
+            outline: 1px red solid;
         }
-
         &__developer p{
-          
-           display: inline-block;
-//            margin: 0;
+            display: inline-block;
             font-family: "BloggerSans", sans-serif;
             font-size: 16px;
             font-weight: 300;
-             outline: 1px blue solid;
-            
-
+            outline: 1px blue solid;
         }
         
         &__developer svg{
             margin:auto;
         }
-     
-
     }
 }
 
@@ -157,7 +137,6 @@
             outline: 2px red solid;
             margin: 0;
         }
-        
         &__logo {
             display: none;
         }

@@ -104,20 +104,19 @@
             align-items: center;
             height: 70px;
             width: 70px;
-            content: ""; 
+            content: "";
             background: #e2e5f2;
             border-radius: 50px;
         }
-          &__buisnes-icon {  
-              outline: 1px red solid;
-              fill:red;
+        &__buisnes-icon {
+            outline: 1px red solid;
+            fill:red;
         }
-        
         &__buisnes p{
             margin:0;
             padding: 0;
             align-self: center;
-            margin-left: 30px;    
+            margin-left: 30px;
         }
     }
 }
@@ -146,7 +145,6 @@
             background: url(/source/img/rates@1x.png) no-repeat;
             background-size: 80%;
         }
-        
         &__title {
             padding: 0;
             margin: 0;
@@ -157,7 +155,6 @@
             text-decoration: none;
             color: black;
             margin-top: 20px;
-
         }
     }
 }

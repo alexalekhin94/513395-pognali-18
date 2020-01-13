@@ -71,7 +71,7 @@
                 width: 289px;
                 top:0;
                 right:0;
-                background-image: url("/source/img/flags-back@1x.png");  
+                background-image: url("/source/img/flags-back@1x.png");
             }
             &__container::before{
                 position: absolute;
@@ -93,7 +93,6 @@
                 font-size: 28px;
                 font-weight: 300;
                 color: black;}
-            
             &__destination-list {
                 position: relative;
                 list-style: none;
@@ -153,10 +152,9 @@
                 outline: 2px solid red;
                 order: -1;
             }
-            
-              &__button {
-                  margin-left: 62%;
-                  margin-top: -8%;
+            &__button {
+                margin-left: 62%;
+                margin-top: -8%;
             }
 }
 }

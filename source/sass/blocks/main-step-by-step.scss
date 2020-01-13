@@ -6,7 +6,7 @@
         width: 100%;
         outline: 2px solid blue;
         background: #192144;
-        &__container {    
+        &__container {
             margin: 0 auto;
             width: 320px;
             padding-left: 25px;
@@ -120,8 +120,7 @@
         background-color: transparent;
         background-image: linear-gradient(to bottom, transparent 50%, #192144 50%, #192144 100%);
 
-        &__container {
-            //     
+        &__container {   
             margin: 0 auto;
             width: 768px;
             padding-left: 40px;

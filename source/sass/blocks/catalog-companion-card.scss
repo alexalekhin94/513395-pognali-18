@@ -141,8 +141,7 @@
             width:65%;
             height: 65%;
         }
-        
-        &__transport--active svg { 
+        &__transport--active svg {
             fill:#1d2e5b;
         }
 
@@ -175,7 +174,7 @@
         &__show-more svg {
             height: 17px;
             width: 17px;
-            fill: #1d2e5b;  
+            fill: #1d2e5b;
         }
         &__show-more span {
             display: block;
@@ -237,7 +236,7 @@
             order: 3;
         }
         &__countries-wrapper{
-            order: 4;   
+            order: 4;
         }
         &__likes {
             display: flex;
@@ -246,11 +245,11 @@
             margin: 0;
             margin-left: -100px;
             order: 2;
-            margin-top: 122px;   
+            margin-top: 122px;
         }
         &__likes svg {
             height: 100%;
-            width: 50px;                           
+            width: 50px;
         }
         &__countries-wrapper{
             order: 8;
@@ -264,7 +263,7 @@
             margin-right: 20px;
         }
         &__transport-wrapper{
-            outline: 1px blue solid;   
+            outline: 1px blue solid;
         }
         &__transport-level-block {
             display: inline-block;
@@ -283,7 +282,7 @@
             flex-grow: 1;
         }
         &__transport-item svg {
-             outline: 1px red solid;  
+             outline: 1px red solid;
         }
         &__pretitle {
             display: none;
@@ -302,16 +301,15 @@
             margin-top: -75px;
             margin-left: -150px;
         }
-           &__show-more svg {
+        &__show-more svg {
             height: 27px;
             width: 27px;
         }
-            &__show-more span {
-                line-height: 27px;
+        &__show-more span {
+            ine-height: 27px;
         }
     }
 }
-
 
 
 @media (min-width: 1440px) {
@@ -327,7 +325,6 @@
         flex-direction: row;
         align-items: flex-start;
         flex-wrap: wrap;
-        
         &__photo-name-likes {
             order:-1;
         }
@@ -342,7 +339,7 @@
             width: 320px;
             margin-top: 60px;
             margin-left: 20px;
-            order: 1;   
+            order: 1;
         }
         &__name br {
             display:none;
@@ -360,7 +357,7 @@
         }
         &__countries-wrapper {
             margin-top: 60px;
-            order: 4;  
+            order: 4;
         }
         &__likes {
             display: flex;
@@ -373,10 +370,10 @@
         }
         &__likes svg {
             height: 100%;
-            width: 50px;                                
+            width: 50px;
         }
         &__countries-wrapper{
-            order: 3; 
+            order: 3;
         }
 
         &__countries-list {
@@ -403,7 +400,7 @@
         }
         &__transport-wrapper {
             padding-top: 3px;
-            outline: 1px blue white;  
+            outline: 1px blue white;
         }
 
         &__transport-list {
@@ -412,20 +409,20 @@
             flex-grow: 1;
         }
         &__transport-item svg {
-            outline: 1px red solid;     
+            outline: 1px red solid;
         }
         &__level {
-            outline: 1px red solid; 
+            outline: 1px red solid;
             width:40px;
             height: 40px;
             display: block;
         }
 
         &__pretitle {
-            display: none;   
+            display: none;
         }
         &__pretitle1 {
-            display: none;  
+            display: none;
         }
         &__pretitle1:after {
             width: 705px;
@@ -439,7 +436,7 @@
             height: 50px;
             box-sizing: border-box;
             margin-top: -85px;
-            margin-left: 320px; 
+            margin-left: 320px;
         }
     }
 }

@@ -171,7 +171,6 @@
             width: 290px;
             height: 290px;
             background: url("/source/img/rogovaya-back-desktop@1x.png") no-repeat;
-          
         }
     }
 }
@@ -197,11 +196,11 @@
         }
         &__container::before{
             top: 80px;
-            left: 550px;  
+            left: 550px;
         }
         &__companion-list::before{
             left: 200px;
-            top:300px;  
+            top:300px;
         }
         &__item {
             outline: 2px solid green;

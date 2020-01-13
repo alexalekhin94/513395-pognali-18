@@ -93,7 +93,7 @@
             z-index: -1;
             content: "";
             background: url(/source/img/about-tablet@1x.png) no-repeat;
-            background-size: contain;      
+            background-size: contain;
         }
         &__container::before{
             position: absolute;
@@ -126,7 +126,7 @@
         &__more-information{
             margin-top: 20px;
             width:280px;
-            color: red;            
+            color: red;
         }
     }
 }

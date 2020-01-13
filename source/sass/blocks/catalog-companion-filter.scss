@@ -15,13 +15,13 @@
         }
         &__filter-option{
             padding: 0;
-            border: 0px; 
+            border: 0px;
         }
         &__option-list{
             margin: 0;
             padding: 0;
-            list-style: none;   
-        }        
+            list-style: none;
+        }
         &__option-item{
             height: 30px;
             padding-top: 10px;
@@ -30,7 +30,7 @@
         }
         &__label-wrapper{
             display: flex;
-            width: 130px;        
+            width: 130px;
             outline: 1px green solid;
             cursor: pointer;
         }
@@ -79,12 +79,10 @@
             height: 100%;
             width: 100%;
         }
-        
         &__check-input-transport{
             padding: 0;
             margin: 0;
         }
-        
         &__checkbox-wrapper-transport svg{
             width: 100%;
             margin-top: 4px;
@@ -104,7 +102,6 @@
             margin: 0 auto;
             background-color:#ffffff;
         }
-        
         &__level-field::after{
             position: absolute;
             content: "";
@@ -209,9 +206,8 @@
             padding-right:40px;
             width: 100%;
         }
-    
         &__button {
             height: 50px;
-         }
+        }
     }
 }

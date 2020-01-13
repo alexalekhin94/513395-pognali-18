@@ -71,11 +71,7 @@
 
 
 @media (min-width: 1440px) {
-    
-
-
     .catalog-companion-filter-wrapper {
-
         outline: 4px black solid;
         justify-content: space-between;
         display: flex;
@@ -85,26 +81,18 @@
         padding-left: 60px;
         padding-right: 60px;
     }
-
-
     .catalog-companion {
         display: flex;
         position: relative;
         box-sizing: border-box;
         width: 950px;
         outline: 3px solid orange;
-
-
         &__container {
             margin: 0;
             padding: 0;
             display: block;
             justify-content: space-between;
-
             outline: 3px solid blue;
-
         }
-
-
     }
 }
