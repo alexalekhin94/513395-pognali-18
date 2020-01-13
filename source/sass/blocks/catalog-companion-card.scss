@@ -235,6 +235,7 @@
             outline: 2px orange solid;
             order: 3;
         }
+        
         &__countries-wrapper{
             order: 4;
         }
@@ -282,7 +283,7 @@
             flex-grow: 1;
         }
         &__transport-item svg {
-             outline: 1px red solid;
+            outline: 1px red solid;
         }
         &__pretitle {
             display: none;

@@ -223,7 +223,7 @@
             justify-content: center;
             list-style: none;
             outline:2px green solid;
-            margin-top: 20px;  
+            margin-top: 20px;
         }
         &__transport-item{
             height: 30px;
@@ -231,8 +231,9 @@
             border:2px red solid;
             margin-left: 20px;
         }
-          &__transport-item:first-child{
+        
+        &__transport-item:first-child{
             margin-left: 0px;
         }
-    }  
+    }
 }

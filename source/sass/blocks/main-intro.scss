@@ -6,7 +6,7 @@
         height: 690px;
         outline: 2px solid blue ;
         background: url('/source/img//globe-back-mobile@1x.jpg') 50% -75px no-repeat;
-        background-color: #161c34;   
+        background-color: #161c34;
         &__container {
             background: url('/source/img/traveller-illustration-mobile@1x.png') 61% 148px no-repeat;
             margin: 0 auto;
@@ -100,9 +100,8 @@
             display: block;
             width: 160px;
             outline: 2px orange solid;
-        }   
-}
-
+        }
+    }
 }
 
 @media (min-width:768px) {
