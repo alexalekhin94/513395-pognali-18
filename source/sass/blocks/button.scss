@@ -1,7 +1,6 @@
 @media (min-width: 320px) {
 
     .button {
-
         display: block;
         position: relative;
         font-family: "BloggerSans", sans-serif;
@@ -17,7 +16,6 @@
         border-radius: 10px;
         outline: 2px red solid;
         cursor: pointer;
-
 
         &__destination {
             display: block;
@@ -36,19 +34,14 @@
             background-color: #ffd74b;
             border-radius: 10px;
             outline: 2px red solid;
-            
             cursor: pointer;
         }
 
         &__destination::before {
             position: absolute;
-
             content: "";
-
-
             top: 23px;
             right: 20px;
-
             border: 8px solid transparent;
             border-left: 8px solid #1d2e5b;
         }
@@ -60,11 +53,5 @@
     
     .button {
         width: 276px;
-        
-        
-        
     }
-    
-    
-    
 }

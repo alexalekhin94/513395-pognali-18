@@ -1,9 +1,8 @@
 body {
-  background:  url("../img/pognali-index-mobile.jpg") no-repeat 50% 0;
-  background-size: 720px auto;
-  min-height: 5750px;    
+    background:  url("../img/pognali-index-mobile.jpg") no-repeat 50% 0;
+    background-size: 720px auto;
+    min-height: 5750px;    
 }
-
 
 @media (min-width:768px) {
   body {
@@ -12,11 +11,9 @@ body {
   }
 }
 
-
 @media (min-width: 1440px) {
   body {
     background: url("../img/pognali-index-desktop.jpg") no-repeat 50% 0;
     background-size: 1391px auto;
   }
 }
-

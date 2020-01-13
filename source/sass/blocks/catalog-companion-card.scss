@@ -99,22 +99,16 @@
             padding-left: 10px;
             padding-right: 10px;
             background-color: white;
-
         }
-        
         
         &__countries-wrapper{
-            
             outline: 1px blue ;
-            
         }
-
 
         &__countries-list {
             padding: 0;
             margin: 0;
             list-style: none;
-
         }
 
         &__countries-item {
@@ -122,21 +116,16 @@
             align-items: center;
             outline: 1px red solid;
             margin-bottom: 10px;
-
         }
 
         &__transport-list {
             list-style: none;
             display: flex;
-
             padding: 0;
             margin: 0;
-
         }
 
         &__transport-item {
-            
-            
             display: flex;
             flex-direction: row;
             box-sizing: border-box;
@@ -154,26 +143,19 @@
             fill:#cacbd1;
             width:65%;
             height: 65%;
-
         }
         
         
-        &__transport--active svg {
-            
+        &__transport--active svg { 
             fill:#1d2e5b;
         }
-
 
         &__transport-level-block {
             display: flex;
             margin-bottom: 20px;
             box-sizing: border-box;
             outline: 1px red solid;
-
         }
-
-
-
 
         &__transport-wrapper {
 
@@ -181,64 +163,40 @@
             padding-left: 5px;
         }
 
-
-
-
         &__level-wrapper {
             outline: 1px red solid;
 
         }
-
         &__level {
             outline: 1px red solid;
             display: block;
         }
-        
         &__show-more{
-            
             display: flex;
             outline: 1px red solid;
             margin: 0 auto;
-            margin-top: 20px;
-             
-           text-decoration: none;
-                   
-            
+            margin-top: 20px; 
+            text-decoration: none;
+ 
         }
-        
         
         &__show-more svg {
             height: 17px;
             width: 17px;
-            fill: #1d2e5b;
-// 
-            
-            
+            fill: #1d2e5b;  
         }
         
         &__show-more span{
             display: block;
-//            height: 17px;
-
             font-family: "BloggerSans", sans-serif;
             text-transform: uppercase;
-//            box-sizing: border-box;
             margin-left: 10px;
-    
-
-
             color:#1d2e5b;
             font-weight: bold;
             font-size: 17px;
             outline: 1px red solid;
-           
-           
         }
-
-
     }
-
-
 }
 
 
@@ -248,21 +206,16 @@
     .catalog-companion-card {
         width: auto;
         font-family: "BloggerSans", sans-serif;
-
         padding-top: 16px;
         padding-left: 16px;
-
-         outline: 1px black solid;
-        
+        outline: 1px black solid;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         flex-wrap: wrap;
 
-
         &__photo-name-likes {
-                order:-1;
-
+            order:-1;
         }
 
         &__image {
@@ -273,24 +226,19 @@
             order: 0;
         }
         
-        
         &__name {
-
             width: 320px;
             margin-top: 0px;
             margin-left: 20px;
             order: 1;
-            
         }
 
         &__name br {
-            display:
-                none;
+            display:none;
         }
 
         &__tag-list {
             display:inline-block;
-//            flex-wrap: wrap;
             padding: 0;
             margin: 0;
             margin-top: 30px;
@@ -302,62 +250,42 @@
         }
         
         &__countries-wrapper{
-            order: 4;
-            
-            
+            order: 4;   
         }
         
         &__likes{
             display: flex;
-            
-            
-             width: 100px;
+            width: 100px;
             height: 50px;
             margin: 0;
             margin-left: -100px;
-//            margin-bottom: 10px;
             order: 2;
-            margin-top: 122px;
-            
+            margin-top: 122px;   
         }
-        
-        
-        
+ 
         &__likes svg{
             height: 100%;
-            width: 50px;                        
-            
-            
+            width: 50px;                           
         }
         
 
-        
         &__countries-wrapper{
             order: 8;
-            
+        
         }
-
-
-
-
-
 
         &__countries-list {
             display: flex;
             flex-direction: row;
-             outline: 1px red solid;
-
+            outline: 1px red solid;
         }
 
         &__countries-item {
             margin-right: 20px;
-
         }
         
         &__transport-wrapper{
-        outline: 1px blue solid;
-            
-            
+            outline: 1px blue solid;   
         }
 
 
@@ -391,8 +319,7 @@
         
         &__pretitle{
             display: none;
-            
-            
+ 
         }
         
         
@@ -401,11 +328,7 @@
             width: 705px;
         }
         
-        
-        
-        
         &__button{
-
             padding: 0;
             border-radius: 30px;
             height: 30px;
@@ -413,10 +336,8 @@
             width: 147px;
             height: 50px;
             box-sizing: border-box;
-            
             margin-top: -75px;
             margin-left: -150px;
-           
         }
         
            &__show-more svg {
@@ -427,15 +348,8 @@
         
             &__show-more span{
                 line-height: 27px;;
-                
-                
-                
+     
         }
-
-
-
-
-
     }
 }
 
@@ -445,24 +359,18 @@
 
     .catalog-companion-card {
         width: 953px;
-//        height: 284px;
         height: auto;
         font-family: "BloggerSans", sans-serif;
-
         padding-top: 0px;
         padding-left: 0px;
-
-         outline: 3px black solid;
-        
+        outline: 3px black solid;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         flex-wrap: wrap;
-
-
+        
         &__photo-name-likes {
                 order:-1;
-
         }
 
         &__image {
@@ -473,14 +381,11 @@
             order: 0;
         }
         
-        
         &__name {
-
             width: 320px;
             margin-top: 60px;
             margin-left: 20px;
-            order: 1;
-            
+            order: 1;   
         }
 
         &__name br {
@@ -490,7 +395,6 @@
 
         &__tag-list {
             display:inline-block;
-//            flex-wrap: wrap;
             padding: 0;
             margin: 0;
             margin-top: 100px;
@@ -503,101 +407,59 @@
         
         &__countries-wrapper{
             margin-top: 60px;
-            order: 4;
-            
-            
+            order: 4;  
         }
         
         &__likes{
             display: flex;
-            
-            
-             width: 100px;
+            width: 100px;
             height: 50px;
             margin: 0;
-            margin-left: -100px;
-//            margin-bottom: 10px;
+            margin-left: -100px;;
             order: 2;
             margin-top: 200px;
             
         }
         
-        
-        
         &__likes svg{
             height: 100%;
-            width: 50px;                        
-            
-            
+            width: 50px;                                
         }
-        
-        
-//        
-//         &__likes {
-//            display: flex;
-//            width: 100px;
-//            height: 30px;
-//            margin-left: 40px;
-//            margin-top: 10px;
-//            outline: 1px red solid;
-//        }
-//        
-        
-        
         
         &__countries-wrapper{
-            order: 3;
-            
+            order: 3; 
         }
-
-
-
-
-
 
         &__countries-list {
             display: flex;
-            flex-direction: column;;
-             outline: 1px red solid;
+            flex-direction: column;
+            outline: 1px red solid;
             margin-left: 140px;
 
         }
 
         &__countries-item {
             margin-right: 20px;
-
         }
         
-     
-
-
         &__transport-level-block {
             margin: 0;
             display: flex;
-           margin-top: -80px;
+            margin-top: -80px;
             margin-left: auto;
             margin-right: 50px;
             width:auto;
             flex-direction: row;
-
             background-color: white;
-
             outline: 1px red solid;
             order: 19;
-
-
         }
         
         
-           &__transport-wrapper{
-               padding-top: 3px;
-        outline: 1px blue white;
-            
-            
-            
+        &__transport-wrapper{
+            padding-top: 3px;
+            outline: 1px blue white;  
         }
-
-
 
         &__transport-list {
             display: flex;
@@ -607,46 +469,28 @@
         
         
         &__transport-item svg{
-             outline: 1px red solid;  
-            
+             outline: 1px red solid;     
         }
         
-        
            &__level {
-            outline: 1px red solid;
-            
+            outline: 1px red solid; 
             width:40px;
             height: 40px;
             display: block;
-
-
         }
-        
-        
-        
+
         &__pretitle{
-            display: none;
-            
-            
+            display: none;   
         }
         
           &__pretitle1{
-            display: none;
-            
-            
+            display: none;  
         }
-        
-        
         &__pretitle1:after{
-            
             width: 705px;
         }
         
-        
-        
-        
         &__button{
-
             padding: 0;
             border-radius: 30px;
             height: 30px;
@@ -654,13 +498,8 @@
             width: 147px;
             height: 50px;
             box-sizing: border-box;
-            
             margin-top: -85px;
-            margin-left: 320px;
-           
-           
+            margin-left: 320px; 
         }
-        
-        
     }
 }
