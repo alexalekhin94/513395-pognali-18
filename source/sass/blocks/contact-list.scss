@@ -26,7 +26,8 @@
         padding: 0;
         list-style: none;
         outline: 2px blue solid;
-        &__link{        color: black;
+        &__link{
+            color: black;
             display: block;
         }
         &__item{
@@ -34,8 +35,8 @@
             margin-bottom: 10px;
         }
         &__item:first-child{
-         outline: 1px red solid;
-         margin-left: 0px;
+            outline: 1px red solid;
+            margin-left: 0px;
         }
     }
 }
