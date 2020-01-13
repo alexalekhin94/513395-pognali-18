@@ -1,5 +1,4 @@
 @media (min-width: 320px) {
-    
     .companion-card{
         position: relative;
         border: 2px red solid;
@@ -8,27 +7,21 @@
         flex-direction: column;
         margin-top: 20px;
         background-color: white;
-        
         &__countries-list{
             list-style: none;
         }
-        
-        
         &__tag-list{
             list-style: none;
         }
-        
-        &__tag-item{
+        &__tag-item {
             display: inline-block;
             color:#39466a;
         }
-        
         &__image{
             height: 270px;
             outline: 6px red solid;
-            width: 100%;  
+            width: 100%;
         }
-        
         &__level{
             position: absolute;
             top:20px;
@@ -38,8 +31,6 @@
             width:40px;
             outline: 2px blue solid;
         }
-        
-        
         &__countries-list{
             margin: 0;
             padding:0;
@@ -49,72 +40,52 @@
             outline: 2px orange solid;
             margin-top: -10px;
         }
-        
-        
         &__countries-item{
             height: 24px;
             width:37px;
             border: 1px green solid;
-            margin-left: 20px;       
+            margin-left: 20px;
         }
-//        
         &__countries-item:first-child{
 
-            margin-left: 0px;
-             
+            margin-left: 0px;     
         }
-        
         &__name{
             text-align: center;
             color:#39466a;
-        }
-        
-               
+        }       
         &__transport-list{
             margin:0;
-            padding: 0;   
+            padding: 0;
             display: flex;
             justify-content: center;
             list-style: none;
             outline:2px green solid;
-            margin-top: 20px;
-
-            
+            margin-top: 20px;  
         }
-        
         &__transport-item{
             height: 30px;
             width:30px;
             border:2px red solid;
-            margin-left: 20px;    
+            margin-left: 20px;
         }
-        
         &__transport-item svg{
             fill:#d9d9d9;
         }
-        
-        &__transport-item--active svg{
-            
+        &__transport-item--active svg {    
             fill:#1d2e5b;
         }
-        
-          &__transport-item:first-child{
-            margin-left: 0px;}
-        
+        &__transport-item:first-child {
+            margin-left: 0px;
+        }  
         &__description{
             background-color: white;
-            color:#39466a;
-            
-            
-        }
-                
+            color:#39466a;     
+        }          
     }
-    
     .companion-card:first-child{
-        
         margin-top: 0;
     }
-    
 }
 
 
@@ -129,26 +100,20 @@
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        
         &__countries-list{
             list-style: none;
         }
-        
-        
         &__tag-list{
             list-style: none;
         }
-        
         &__tag-item{
             display: inline-block;
         }
-        
         &__image{
             height: 285px;
             outline: 2px red solid;
-            width: 100%;  
+            width: 100%;
         }
-        
         &__level{
             position: absolute;
             top:20px;
@@ -158,8 +123,6 @@
             width:40px;
             outline: 2px blue solid;
         }
-        
-        
         &__countries-list{
             margin: 0;
             padding:0;
@@ -169,60 +132,39 @@
             outline: 2px orange solid;
             margin-top: -13px;
         }
-        
-        
         &__countries-item{
             height: 24px;
             width:37px;
             border: 1px green solid;
-            margin-left: 20px;       
+            margin-left: 20px;
         }
-//        
         &__countries-item:first-child{
 
             margin-left: 0px;
-             
         }
-        
         &__name{
             text-align: center;
         }
-        
-               
         &__transport-list{
             margin:0;
             padding: 0;
-            
             display: flex;
             justify-content: center;
             list-style: none;
-         
-//            margin: 0 auto;
             outline:2px green solid;
-            margin-top: 20px;
-
-            
+            margin-top: 20px;   
         }
-        
         &__transport-item{
             height: 30px;
             width:30px;
             border:2px red solid;
-            margin-left: 20px;    
+            margin-left: 20px;
         }
-        
           &__transport-item:first-child{
             margin-left: 0px;
-        }
-                
-    }
-    
+        }          
+    } 
 }
-
-
-
-
-
 
 @media (min-width: 1440px) {
     .companion-card{
@@ -231,26 +173,20 @@
         width: 285px;
         display: flex;
         flex-direction: column;
-        
         &__countries-list{
             list-style: none;
         }
-        
-        
         &__tag-list{
             list-style: none;
         }
-        
         &__tag-item{
             display: inline-block;
         }
-        
         &__image{
             height: 285px;
             outline: 2px red solid;
-            width: 100%;  
+            width: 100%;
         }
-        
         &__level{
             position: absolute;
             top:20px;
@@ -260,8 +196,6 @@
             width:40px;
             outline: 2px blue solid;
         }
-        
-        
         &__countries-list{
             margin: 0;
             padding:0;
@@ -271,52 +205,37 @@
             outline: 2px orange solid;
             margin-top: -13px;
         }
-        
-        
+
         &__countries-item{
             height: 24px;
             width:37px;
             border: 1px green solid;
-            margin-left: 20px;       
+            margin-left: 20px;
         }
-//        
-        &__countries-item:first-child{
-
-            margin-left: 0px;
-             
+   
+        &__countries-item:first-child {
+            margin-left: 0px;  
         }
-        
         &__name{
             text-align: center;
-        }
-        
-               
+        }      
         &__transport-list{
             margin:0;
             padding: 0;
-            
             display: flex;
             justify-content: center;
             list-style: none;
-         
-//            margin: 0 auto;
             outline:2px green solid;
-            margin-top: 20px;
-
-            
+            margin-top: 20px;  
         }
-        
         &__transport-item{
             height: 30px;
             width:30px;
             border:2px red solid;
-            margin-left: 20px;    
+            margin-left: 20px;
         }
-        
           &__transport-item:first-child{
             margin-left: 0px;
-        }
-                
-    }
-    
+        }          
+    }  
 }

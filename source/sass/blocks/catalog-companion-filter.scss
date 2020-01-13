@@ -11,44 +11,38 @@
             outline: 6px green solid;
             background-color: #ffd74b;
             padding-left: 45px;
-            padding-right: 45px;  
+            padding-right: 45px;
         }
-        
         &__filter-option{
             padding: 0;
             border: 0px; 
         }
-        
         &__option-list{
             margin: 0;
             padding: 0;
             list-style: none;   
-        }
-        
+        }        
         &__option-item{
             height: 30px;
             padding-top: 10px;
             padding-left: 10px;
             outline: 1px red solid;
         }
-        
         &__label-wrapper{
             display: flex;
             width: 130px;        
-            outline: 1px green solid; 
+            outline: 1px green solid;
             cursor: pointer;
         }
-        
         &__checkbox-wrapper{
             display: block;
             height:  24px;
             width:24px;
             box-sizing: border-box;
             margin-right: 20px;
-            border: 3px blue solid;  
-            border-radius: 2px; 
+            border: 3px blue solid;
+            border-radius: 2px;
         }
-        
         &__check-input:checked +.catalog-companion-filter__checkbox-wrapper {
             background-image: url("../img/tick.svg");
             background-size: 60%;
@@ -77,9 +71,8 @@
             background: white;
             margin-right:5px
         }
-        
         &__option-transport:last-child{
-            margin-right:0px  
+            margin-right:0px;
         }
         &__label-wrapper-transport{
             justify-content: center;
@@ -93,7 +86,7 @@
         }
         
         &__checkbox-wrapper-transport svg{
-            width: 100%; 
+            width: 100%;
             margin-top: 4px;
             outline: 1px red solid;
         }
@@ -133,7 +126,7 @@
         }
         &__label-wrapper-level:nth-child(2) {
             position: relative;
-            border-left: 1px #cbced9 solid; 
+            border-left: 1px #cbced9 solid;
         }
         &__label-wrapper-level:nth-child(2)::after{
             position: absolute;
@@ -156,7 +149,7 @@
             font-size: 15px;
             width: 55px;
             padding-left: 16px;
-            border: 0px; 
+            border: 0px;
         }
         &__check-input-level:focus {
             outline: none;
@@ -177,7 +170,7 @@
         }
         &__bar{
             height: 2px;
-            background-color: #1d2e5b;  
+            background-color: #1d2e5b;
         }
         &__toggle{
             position: absolute;
@@ -187,16 +180,13 @@
             background-color: #1d2e5b;
             border-radius: 15px;
             top:0;
-            transform: translate(0%,-4px);  
+            transform: translate(0%,-4px);
         }
-        
-        
         &__toggle-min{
-            margin-left: 20%;  
+            margin-left: 20%;
         }
-        
         &__toggle-max{
-            margin-left: 80%; 
+            margin-left: 80%;
         }
         &__button{
             margin: 0;
@@ -206,23 +196,22 @@
             border-radius: 50px;
             color: #161c35;
             text-align: center;
-            outline: 1px green solid;  
+            outline: 1px green solid;
         }
     }
 }
 
 @media (min-width: 1440px){
-     .catalog-companion-filter {
-         width: 285px;
-         
-         &__container{
-             padding-left: 40px;
-             padding-right:40px;
-             width: 100%;
+    .catalog-companion-filter {
+        width: 285px;
+        &__container {
+            padding-left: 40px;
+            padding-right:40px;
+            width: 100%;
         }
     
-         &__button{
-             height: 50px;
+        &__button {
+            height: 50px;
          }
     }
 }

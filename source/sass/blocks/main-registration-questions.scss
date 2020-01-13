@@ -13,7 +13,6 @@
         margin-top: -30px;
         position: relative;
         z-index: 600;
-
         &__container {
             margin: 0 auto;
             width: 320px;
@@ -25,55 +24,41 @@
             flex-direction: column;
             padding-top: 20px;
         }
-
         &__title {
-
-            
             font-weight: bold;
             font-size: 24px;
             color: #ff8d30;
             margin-top: 20px;
-
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-
         &__text {
             display: block;
-//            font-family: "BloggerSans", sans-serif;
             font-weight: 300;
             font-size: 16px;
-
-
             margin: 10px auto;
             width: 210px;
             outline: 2px solid green;
             text-align: center;
-
             color: white;
         }
-
-
         &__auth {
             color: #ffd74b;
             text-decoration: underline;
         }
-
         &__registration-form {
             display: flex;
             background-color: white;
             border-radius: 15px;
         }
-
         &__sub-inp {
             flex-grow: 1;
             height: 62px;
             border-radius: 10px 0 0 10px;
             border: 0;
         }
-
         &__button {
             padding: 0;
             margin: 0;
@@ -84,47 +69,31 @@
             border: 0;
             cursor: pointer;
         }
-        
-        
         &__button span{
-            
             display: none;
         }
 
-
         &__button::after {
-
             position: absolute;
             content: "";
             top: 23px;
             right: 15px;
             border: 8px solid transparent;
             border-left: 8px solid #1d2e5b;
-
         }
 
         &__contact-list {
-
             margin: 0;
             padding: 0;
         }
-
-
-
         &__contact-item {
-
             display: flex;
             font-family: "BloggerSans", sans-serif;
             font-weight: bold;
             font-size: 16px;
             height: 43px;
             list-style: none;
-
         }
-
-
-
-
         &__contact-item a {
             display: flex;
             flex-grow: 1;
@@ -133,7 +102,6 @@
             text-decoration: none;
             align-items: center;
         }
-
         &__icon {
             display: flex;
             justify-content: center;
@@ -146,26 +114,12 @@
             background-color: #121936;
             margin-right: 30px;
             fill:#ffd74b;
-            
-        
-
         }
-        
-
         &__icon path {
             fill: #ffd74b;
         }
-        
-        
-        
-
     }
-
 }
-
-
-
-
 
 @media (min-width: 768px) {
 
@@ -174,10 +128,6 @@
         width: 100%;
         outline: 2px solid red;
         display: flex;
-        
-        
-//        font-size: 28px;
-
         &__container {
             margin: 0 auto;
             width: 768px;
@@ -188,15 +138,12 @@
             display: flex;
             flex-direction: column;
         }
-
         &__title {
-
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-
         &__text {
             display: block;
             font-size: 28px;
@@ -204,29 +151,19 @@
             outline: 2px solid green;
             text-align: center;
         }
-        
         &__contact-text{
-            font-size: 28px;
-            
+            font-size: 28px;   
         }
-        
         &__icon{
             height: 68px;
             width: 68px;
-            
-  
         }
-        
         &__contact-item{
             width: 60%;
             height: 70px;
         }
-
     }
-
 }
-
-
 
 @media (min-width: 1440px) {
 
@@ -235,7 +172,6 @@
         width: 100%;
         outline: 2px solid red;
         display: flex;
-
         &__container {
             margin: 0 auto;
             width: 1440px;
@@ -246,15 +182,12 @@
             display: flex;
             flex-direction: column;
         }
-
         &__title {
-
             padding: 0;
             margin: 0;
             font-size: 28px;
             text-align: center;
         }
-
         &__text {
             display: block;
             outline: 2px solid green;
@@ -263,41 +196,28 @@
         &__contact-list {
             display: flex;
             margin-left: 240px;
-             margin-right: 240px;
-            
+            margin-right: 240px;  
         }
-        
-          &__contact-item{
+        &__contact-item{
             width: 50%;
             height: 70px;
         }
-        
         &__button{
-            display: flex;
-            
-            
+            display: flex; 
             padding: 0;
             margin: 0;
             width: 325px;
             border-radius: 0 15px 15px 0;
             outline: 1px red solid;
-            
         }
-        
         &__button span{
-           
             font-family: "BloggerSans", sans-serif;
             font-size: 24px;
             font-weight: bold;
             color: #192144;
-             outline: 1px red solid;
+            outline: 1px red solid;
             margin-left: 40px;
-            
-            
             display: block;
         }
-        
-        
     }
-
 }

@@ -99,11 +99,9 @@
     .main-footer {
         display: flex;
         height: 154px;
-
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
-
         &__container {
             display: flex;
             margin: 0 auto;
@@ -113,7 +111,6 @@
             outline: 2px solid green;
             box-sizing: border-box;
         }
-
         &__social-media {
             display: flex;
             padding: 0;
@@ -122,33 +119,25 @@
             list-style: none;
             outline: 2px solid red;
         }
-
         &__social-link {
-    
-
             height: 40px;
             width: 40px;
             outline: 2px red solid;
             margin-left: 20px;
         }
-     
-
     }
 }
-
 
 
 @media (min-width: 1440px) {
     .main-footer {
         display: flex;
         height: 154px;
-
         box-sizing: border-box;
         width: 100%;
         outline: 2px solid blue;
 
         &__container {
-           
             flex-direction: row;
             align-items: center;
             margin: 0 auto;
@@ -158,48 +147,33 @@
             outline: 2px solid green;
             box-sizing: border-box;
         }
-
         &__social-media {
-            
-//            padding: 0;
-//            margin: 0;
-           
             list-style: none;
             outline: 2px solid red;
         }
-
         &__social-link {
-            
-
             height: 60px;
             width: 60px;
             outline: 2px red solid;
             margin: 0;
         }
         
-        
         &__logo {
             display: none;
-
-    }
-        
+        }
         &__developer{
             display: flex;
             margin: 0;
             width: 160px;
         }
-        
         &__logo {
             margin: 0;
             display: block;
             width:200px;
             height: 50px;
             outline: 1px red solid;
-            
             background-image: url("/source/img/logo-tablet-blue@1x.png");
             background-repeat: no-repeat;
-        }
-        
-        
+        }    
 }
 }
