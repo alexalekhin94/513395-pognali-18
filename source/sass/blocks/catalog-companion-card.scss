@@ -99,7 +99,6 @@
             padding-right: 10px;
             background-color: white;
         }
-    
         &__countries-wrapper{
             outline: 1px blue ;
         }
@@ -141,7 +140,8 @@
             fill:#cacbd1;
             width:65%;
             height: 65%;
-        }  
+        }
+        
         &__transport--active svg { 
             fill:#1d2e5b;
         }
@@ -154,14 +154,12 @@
         }
 
         &__transport-wrapper {
-
             outline: 1px blue solid;
             padding-left: 5px;
         }
 
         &__level-wrapper {
             outline: 1px red solid;
-
         }
         &__level {
             outline: 1px red solid;
@@ -171,16 +169,14 @@
             display: flex;
             outline: 1px red solid;
             margin: 0 auto;
-            margin-top: 20px; 
+            margin-top: 20px;
             text-decoration: none;
         }
-        
         &__show-more svg {
             height: 17px;
             width: 17px;
             fill: #1d2e5b;  
         }
-        
         &__show-more span {
             display: block;
             font-family: "BloggerSans", sans-serif;
@@ -220,18 +216,15 @@
             outline: 1px red solid;
             order: 0;
         }
-        
         &__name {
             width: 320px;
             margin-top: 0px;
             margin-left: 20px;
             order: 1;
         }
-
         &__name br {
             display:none;
         }
-
         &__tag-list {
             display:inline-block;
             padding: 0;
@@ -243,11 +236,9 @@
             outline: 2px orange solid;
             order: 3;
         }
-        
         &__countries-wrapper{
             order: 4;   
         }
-        
         &__likes {
             display: flex;
             width: 100px;
@@ -257,31 +248,24 @@
             order: 2;
             margin-top: 122px;   
         }
- 
         &__likes svg {
             height: 100%;
             width: 50px;                           
         }
-        
         &__countries-wrapper{
             order: 8;
         }
-
         &__countries-list {
             display: flex;
             flex-direction: row;
             outline: 1px red solid;
         }
-
         &__countries-item {
             margin-right: 20px;
         }
-        
         &__transport-wrapper{
             outline: 1px blue solid;   
         }
-
-
         &__transport-level-block {
             display: inline-block;
             margin-left: auto;
@@ -298,19 +282,15 @@
             flex-direction: column;
             flex-grow: 1;
         }
-        
-        &__transport-item svg{
+        &__transport-item svg {
              outline: 1px red solid;  
         }
-        
-        &__pretitle{
+        &__pretitle {
             display: none;
         }
-        
         &__pretitle1:after {
             width: 705px;
         }
-        
         &__button {
             padding: 0;
             border-radius: 30px;
@@ -322,12 +302,10 @@
             margin-top: -75px;
             margin-left: -150px;
         }
-        
            &__show-more svg {
             height: 27px;
             width: 27px;
         }
-        
             &__show-more span {
                 line-height: 27px;
         }
@@ -351,9 +329,8 @@
         flex-wrap: wrap;
         
         &__photo-name-likes {
-                order:-1;
+            order:-1;
         }
-
         &__image {
             height: 284px;
             width: 284px;
@@ -361,18 +338,15 @@
             outline: 1px red solid;
             order: 0;
         }
-        
         &__name {
             width: 320px;
             margin-top: 60px;
             margin-left: 20px;
             order: 1;   
         }
-
         &__name br {
             display:none;
         }
-
         &__tag-list {
             display:inline-block;
             padding: 0;
@@ -384,12 +358,10 @@
             outline: 2px orange solid;
             order: 3;
         }
-        
         &__countries-wrapper {
             margin-top: 60px;
             order: 4;  
         }
-    
         &__likes {
             display: flex;
             width: 100px;
@@ -399,12 +371,10 @@
             order: 2;
             margin-top: 200px;
         }
-        
         &__likes svg {
             height: 100%;
             width: 50px;                                
         }
-        
         &__countries-wrapper{
             order: 3; 
         }
@@ -414,13 +384,11 @@
             flex-direction: column;
             outline: 1px red solid;
             margin-left: 140px;
-
         }
 
         &__countries-item {
             margin-right: 20px;
         }
-        
         &__transport-level-block {
             margin: 0;
             display: flex;
@@ -459,11 +427,9 @@
         &__pretitle1 {
             display: none;  
         }
-    
         &__pretitle1:after {
             width: 705px;
         }
-        
         &__button {
             padding: 0;
             border-radius: 30px;
