@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width:728px) {
+@media (min-width: 728px) {
   .contact-list {
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@
 
     &__item:first-child {
       outline: 1px red solid;
-      margin-left: 0px;
+      margin-left: 0;
     }
   }
 }
