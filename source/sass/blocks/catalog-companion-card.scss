@@ -1,16 +1,12 @@
 @media (min-width: 320px) {
-
   .catalog-companion-card {
     font-family: "BloggerSans", sans-serif;
     background: white;
-
     padding-top: 16px;
     padding-left: 16px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-
-
 
     &__image {
       height: 70px;
@@ -48,7 +44,6 @@
       display: inline-block;
       outline: 1px red solid;
       align-self: center;
-
     }
 
     &__tag-list {
@@ -61,7 +56,6 @@
 
     &__tag-item {
       display: inline-block;
-
     }
 
     &__pretitle1 {
@@ -70,16 +64,11 @@
       z-index: 2;
     }
 
-
     &__pretitle {
       margin: 0;
-
       color: black;
       z-index: 2;
     }
-
-
-
 
     &__pretitle1:after {
       position: absolute;
@@ -90,7 +79,6 @@
       width: 106%;
       height: 2px;
       background: black;
-
     }
 
     &__pretitle1 span {
@@ -396,7 +384,6 @@
       height: 50px;
       margin: 0;
       margin-left: -100px;
-      ;
       order: 2;
       margin-top: 200px;
     }
@@ -464,14 +451,13 @@
       display: none;
     }
 
-    &__pretitle1:after {
+    &__pretitle1::after {
       width: 705px;
     }
 
     &__button {
       padding: 0;
       border-radius: 30px;
-      height: 30px;
       order: 10;
       width: 147px;
       height: 50px;

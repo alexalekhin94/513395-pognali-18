@@ -33,7 +33,7 @@
       width: 105px;
       top: 40px;
       right: 25px;
-      background: url(/source/img/rates@1x.png) no-repeat;
+      background: url("/source/img/rates@1x.png") no-repeat;
       background-size: 100%;
     }
 
@@ -83,7 +83,7 @@
       width: 105px;
       top: 370px;
       right: 70px;
-      background: url(/source/img/rates@1x.png) no-repeat;
+      background: url("/source/img/rates@1x.png") no-repeat;
       background-size: 100%;
     }
 
@@ -116,12 +116,11 @@
       content: "";
       background: #e2e5f2;
       border-radius: 50px;
-    }
-
-    &__buisnes-icon {
       outline: 1px red solid;
       fill: red;
     }
+
+
 
     &__buisnes p {
       margin: 0;
@@ -155,7 +154,7 @@
       width: 245px;
       top: 250px;
       right: 150px;
-      background: url(/source/img/rates@1x.png) no-repeat;
+      background: url("/source/img/rates@1x.png") no-repeat;
       background-size: 80%;
     }
 

@@ -20,7 +20,6 @@
       margin-top: 40px;
       width: 100%;
       height: 50px;
-
     }
 
     &__button {
@@ -73,10 +72,9 @@
       border-left: 15px solid grey;
     }
   }
-
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .page-list {
     display: flex;
     justify-content: space-between;

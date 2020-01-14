@@ -2,9 +2,7 @@
   margin: 0;
 }
 
-
 @media (min-width:320px) {
-
   .price-table {
     display: flex;
     flex-direction: column;
@@ -74,7 +72,6 @@
 }
 
 @media (min-width:768px) {
-
   .price-table {
     position: relative;
     display: flex;
@@ -113,7 +110,7 @@
     }
   }
 
-  .price-table:after {
+  .price-table::after {
     position: absolute;
     z-index: -2;
     content: "";
@@ -127,10 +124,7 @@
   }
 }
 
-
-
 @media (min-width:1440px) {
-
   .price-table {
     display: flex;
     margin-top: 140px;
@@ -161,7 +155,7 @@
     }
   }
 
-  .price-table:after {
+  .price-table::after {
     width: 440px;
     height: 295px;
     right: 250px;

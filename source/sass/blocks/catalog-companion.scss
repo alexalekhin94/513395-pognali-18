@@ -1,12 +1,8 @@
 @media (min-width: 320px) {
-
-
   .catalog-companion-filter-wrapper {
     outline: 4px black solid;
     background: #edeff6;
   }
-
-
 
   .catalog-companion {
     display: flex;
@@ -44,7 +40,6 @@
 
 
 @media (min-width: 768px) {
-
   .catalog-companion {
     display: flex;
     position: relative;
@@ -52,12 +47,10 @@
     width: 100%;
     outline: 2px solid orange;
 
-
     &__container {
       padding-left: 40px;
       padding-right: 40px;
       outline: 4px green solid;
-
     }
   }
 }

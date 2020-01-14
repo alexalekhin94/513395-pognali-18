@@ -16,7 +16,7 @@
 
     &__filter-option {
       padding: 0;
-      border: 0px;
+      border: 0;
     }
 
     &__option-list {
@@ -61,7 +61,6 @@
     }
 
     &__option-list-transport {
-      margin: 0;
       display: flex;
       width: 176px;
       list-style: none;
@@ -76,13 +75,12 @@
       float: left;
       border-radius: 20px;
       border: 1px red solid;
-      margin-right: 5px;
       background: white;
-      margin-right: 5px
+      margin-right: 5px;
     }
 
     &__option-transport:last-child {
-      margin-right: 0px;
+      margin-right: 0;
     }
 
     &__label-wrapper-transport {
@@ -132,12 +130,12 @@
 
     &__filter-option-level {
       padding: 0;
-      border: 0px;
+      border: 0;
     }
 
     &__label-wrapper-level {
       width: 50%;
-      margin-left: 0px;
+      margin-left: 0;
     }
 
     &__label-wrapper-level:nth-child(2) {
@@ -167,7 +165,7 @@
       font-size: 15px;
       width: 55px;
       padding-left: 16px;
-      border: 0px;
+      border: 0;
     }
 
     &__check-input-level:focus {
