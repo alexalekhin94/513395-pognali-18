@@ -1,164 +1,170 @@
 .price-table p {
-    margin: 0;
+  margin: 0;
 }
 
 
 @media (min-width:320px) {
 
-    .price-table {
-        display: flex;
-        flex-direction: column;
-        outline: 1px red solid;
-        counter-reset: variant;
+  .price-table {
+    display: flex;
+    flex-direction: column;
+    outline: 1px red solid;
+    counter-reset: variant;
 
-        &__row {
-            margin: 0;
-            padding: 0;
-            position: relative;
-            box-sizing: border-box;
-            width: 80%;
-            outline: 1px blue solid;
-            padding-left: 90px;
-        }
-
-        &__title {
-            font-family: "BloggerSans", sans-serif;
-            font-size: 16px;
-            font-weight: 300;
-            color: #444444;
-            display: block;
-            width: 100%;
-            flex-grow: 0;
-            outline: 1px red solid;
-        }
-
-        &__row::after {
-            font-family: "BloggerSans", sans-serif;
-            color:white;
-            font-weight: bold;
-            box-sizing: border-box;
-            counter-increment: variant;
-            content: counter(variant);
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            border: 1px red solid;
-            border-radius: 50px;
-            top: 10px;
-            right: -45px;
-            padding-left: 14px;
-            padding-top:11px;
-        }
-        &__row:nth-child(1)::after {
-            background-color: #ffa530;
-        }
-
-        &__row:nth-child(2)::after {
-            background-color: #ffbd30;
-        }
-
-        &__row:nth-child(3)::after {
-            background-color: #ffd74b;
-        }
-        &__price {
-            font-family: "BloggerSans", sans-serif;
-            font-size: 16px;
-            font-weight: 300;
-              color: #444444;
-            display: block;
-            width: 200px;
-        }
+    &__row {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      box-sizing: border-box;
+      width: 80%;
+      outline: 1px blue solid;
+      padding-left: 90px;
     }
+
+    &__title {
+      font-family: "BloggerSans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #444444;
+      display: block;
+      width: 100%;
+      flex-grow: 0;
+      outline: 1px red solid;
+    }
+
+    &__row::after {
+      font-family: "BloggerSans", sans-serif;
+      color: white;
+      font-weight: bold;
+      box-sizing: border-box;
+      counter-increment: variant;
+      content: counter(variant);
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border: 1px red solid;
+      border-radius: 50px;
+      top: 10px;
+      right: -45px;
+      padding-left: 14px;
+      padding-top: 11px;
+    }
+
+    &__row:nth-child(1)::after {
+      background-color: #ffa530;
+    }
+
+    &__row:nth-child(2)::after {
+      background-color: #ffbd30;
+    }
+
+    &__row:nth-child(3)::after {
+      background-color: #ffd74b;
+    }
+
+    &__price {
+      font-family: "BloggerSans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #444444;
+      display: block;
+      width: 200px;
+    }
+  }
 }
 
 @media (min-width:768px) {
 
-    .price-table {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        outline: 1px red solid;
+  .price-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    outline: 1px red solid;
 
-        &__row {
-            display: flex;
-            width: 100%;
-            outline: 1px blue solid;
-            padding-top: 22px;
-            padding-bottom: 22px;
-        }
-        &__row::after{
-            font-size: 28px;
-            padding-left: 20px;
-            padding-top: 15px;
-            top:5px;
-            right:inherit;
-            left: 0;
-            width:67px;
-            height: 67px;
-        }
-        &__title {
-            font-size: 28px;
-            flex-grow: 1;
-            outline: 1px red solid;
-        }
-
-        &__price {
-            font-size: 28px;
-            text-align: end;
-            width: 200px;
-        }
+    &__row {
+      display: flex;
+      width: 100%;
+      outline: 1px blue solid;
+      padding-top: 22px;
+      padding-bottom: 22px;
     }
-    .price-table:after{
-        position: absolute;
-        z-index: -2;
-        content: "";
-        top:-20px;
-        right: -20px;
-        height: 285px;
-        width: 200px;
-        border-radius: 30px;
-        background-color: #e2e5f2;
 
+    &__row::after {
+      font-size: 28px;
+      padding-left: 20px;
+      padding-top: 15px;
+      top: 5px;
+      right: inherit;
+      left: 0;
+      width: 67px;
+      height: 67px;
     }
+
+    &__title {
+      font-size: 28px;
+      flex-grow: 1;
+      outline: 1px red solid;
+    }
+
+    &__price {
+      font-size: 28px;
+      text-align: end;
+      width: 200px;
+    }
+  }
+
+  .price-table:after {
+    position: absolute;
+    z-index: -2;
+    content: "";
+    top: -20px;
+    right: -20px;
+    height: 285px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #e2e5f2;
+
+  }
 }
 
 
 
 @media (min-width:1440px) {
 
-    .price-table {
-        display: flex;
-        margin-top: 140px;
-        flex-direction: column;
-        outline: 1px red solid;
+  .price-table {
+    display: flex;
+    margin-top: 140px;
+    flex-direction: column;
+    outline: 1px red solid;
 
-        &__row {
-            display: flex;
-            width: 70%;
-            height: 70px;
-            outline: 3px blue solid;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        &__title {
-            display: flex;
-            font-size: 28px;
-            align-items: center;
-            flex-grow: 1;
-            outline: 1px red solid;
-        }
-
-        &__price {
-            display: block;
-            text-align: end;
-            width: 200px;
-        }
+    &__row {
+      display: flex;
+      width: 70%;
+      height: 70px;
+      outline: 3px blue solid;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
-    .price-table:after{
-        width: 440px;
-        height: 295px;
-        right: 250px;
-        top:-45px;
+
+    &__title {
+      display: flex;
+      font-size: 28px;
+      align-items: center;
+      flex-grow: 1;
+      outline: 1px red solid;
     }
+
+    &__price {
+      display: block;
+      text-align: end;
+      width: 200px;
+    }
+  }
+
+  .price-table:after {
+    width: 440px;
+    height: 295px;
+    right: 250px;
+    top: -45px;
+  }
 }

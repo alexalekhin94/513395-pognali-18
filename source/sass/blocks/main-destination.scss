@@ -1,160 +1,177 @@
 @media (min-width: 320px) {
-    .main-destination {
-        display: flex;
-        position: relative;
-        z-index: 900;
-        padding-top: 100px;
-        box-sizing: border-box;
-        width: 100%;
-        padding-bottom: 70px;
-        border-radius: 0 0 35px 35px;
-        margin-top:-50px;
-        background-color: #edeff6;
-        &__container {
-            margin: 0 auto;
-            width: 320px;
-            padding-left: 25px;
-            padding-right: 25px;
-            outline: 2px solid red;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-        }
+  .main-destination {
+    display: flex;
+    position: relative;
+    z-index: 900;
+    padding-top: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 70px;
+    border-radius: 0 0 35px 35px;
+    margin-top: -50px;
+    background-color: #edeff6;
 
-        &__title {
-            padding: 0;
-            margin: 0;
-            font-family: "BloggerSans", sans-serif;
-            font-size: 24px;
-            font-weight: bold;
-            color: #d37633;
-        }
-        &__discription {
-            margin: 0;
-            font-family: "BloggerSans", sans-serif;
-            font-size: 16px;
-            font-weight: 300;
-            color: #444444;
-        }
-        &__destination-list {
-            position: relative;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-        }
-    }
-}
-
-    @media (min-width: 768px) {
-        .main-destination {
-            box-sizing: border-box;
-            width: 100%;
-            outline: 2px solid orange;
-            &__container {
-                position: relative;
-                margin: 0 auto;
-                width: 768px;
-                padding-left: 40px;
-                padding-right: 40px;
-                outline: 2px solid green;
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: column;
-            }
-            &__container::after{
-                position: absolute;
-                z-index: -1;
-                display: flex;
-                content: "";
-                height: 575px;
-                width: 289px;
-                top:0;
-                right:0;
-                background-image: url("/source/img/flags-back@1x.png");
-            }
-            &__container::before{
-                position: absolute;
-                z-index: -1;
-                display: flex;
-                content: "";
-                height: 575px;
-                width: 289px;
-                top:0;
-                right:0;
-                background-image: url("/source/img/flags-back@1x.png");
-            }
-            &__title{
-                font-size: 45px;
-            }
-            &__discription {
-                width: 360px;
-                margin-top: 30px;
-                font-size: 28px;
-                font-weight: 300;
-                color: black;}
-            &__destination-list {
-                position: relative;
-                list-style: none;
-                padding: 0;
-                margin-top: 20px;
-                outline: 2px blue solid;
-            }
-            &__destination-list::after {
-                position: absolute;
-                content: "";
-                width: 100%;
-                height: 80px;
-                bottom:20px;
-                left: 0;
-                outline: 2px pink solid;
-                background-image: linear-gradient(to bottom,rgba(255,255,255,.3),#edeff6);
-            }
-            &__button {
-                text-decoration: none;
-                height: 30px;
-                outline: 2px red solid;
-                cursor: pointer;
-            }
-        }
+    &__container {
+      margin: 0 auto;
+      width: 320px;
+      padding-left: 25px;
+      padding-right: 25px;
+      outline: 2px solid red;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
     }
 
-    @media (min-width: 1440px) {
-        .main-destination {
-            box-sizing: border-box;
-            width: 100%;
-            outline: 2px solid red;
-            &__container {
-                padding-top: 20px;
-                margin: 0 auto;
-                width: 1440px;
-                padding-left: 60px;
-                padding-right: 60px;
-                outline: 2px solid green;
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-            }
-            &__info {
-                width: 40%;
-                margin-top: 20px;
-                outline: 2px solid red;
-            }
-            &__title {
-                margin: 0;
-                padding: 0;
-            }
-            &__destination-list {
-                width: 60%;
-                list-style: none;
-                padding: 0;
-                outline: 2px solid red;
-                order: -1;
-            }
-            &__button {
-                margin-left: 62%;
-                margin-top: -8%;
-            }
+    &__title {
+      padding: 0;
+      margin: 0;
+      font-family: "BloggerSans", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #d37633;
+    }
+
+    &__discription {
+      margin: 0;
+      font-family: "BloggerSans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #444444;
+    }
+
+    &__destination-list {
+      position: relative;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+  }
 }
+
+@media (min-width: 768px) {
+  .main-destination {
+    box-sizing: border-box;
+    width: 100%;
+    outline: 2px solid orange;
+
+    &__container {
+      position: relative;
+      margin: 0 auto;
+      width: 768px;
+      padding-left: 40px;
+      padding-right: 40px;
+      outline: 2px solid green;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__container::after {
+      position: absolute;
+      z-index: -1;
+      display: flex;
+      content: "";
+      height: 575px;
+      width: 289px;
+      top: 0;
+      right: 0;
+      background-image: url("/source/img/flags-back@1x.png");
+    }
+
+    &__container::before {
+      position: absolute;
+      z-index: -1;
+      display: flex;
+      content: "";
+      height: 575px;
+      width: 289px;
+      top: 0;
+      right: 0;
+      background-image: url("/source/img/flags-back@1x.png");
+    }
+
+    &__title {
+      font-size: 45px;
+    }
+
+    &__discription {
+      width: 360px;
+      margin-top: 30px;
+      font-size: 28px;
+      font-weight: 300;
+      color: black;
+    }
+
+    &__destination-list {
+      position: relative;
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      outline: 2px blue solid;
+    }
+
+    &__destination-list::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 80px;
+      bottom: 20px;
+      left: 0;
+      outline: 2px pink solid;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, .3), #edeff6);
+    }
+
+    &__button {
+      text-decoration: none;
+      height: 30px;
+      outline: 2px red solid;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-destination {
+    box-sizing: border-box;
+    width: 100%;
+    outline: 2px solid red;
+
+    &__container {
+      padding-top: 20px;
+      margin: 0 auto;
+      width: 1440px;
+      padding-left: 60px;
+      padding-right: 60px;
+      outline: 2px solid green;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    &__info {
+      width: 40%;
+      margin-top: 20px;
+      outline: 2px solid red;
+    }
+
+    &__title {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__destination-list {
+      width: 60%;
+      list-style: none;
+      padding: 0;
+      outline: 2px solid red;
+      order: -1;
+    }
+
+    &__button {
+      margin-left: 62%;
+      margin-top: -8%;
+    }
+  }
 }

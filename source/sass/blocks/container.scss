@@ -1,33 +1,33 @@
 @media (min-width: 320px) {
-    .container {
-        width: 320px;
-        padding-left: 25px;
-        padding-right: 25px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        outline: 2px solid green;
-    }
+  .container {
+    width: 320px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: 2px solid green;
+  }
 }
 
 
 @media (min-width: 768px) {
 
-    .container {
-        width: 768px;
-        padding-left: 40px;
-        padding-right: 40px;
-        outline: 2px solid blue;
-    }
+  .container {
+    width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: 2px solid blue;
+  }
 }
 
 
 
 @media (min-width: 1440px) {
 
-    .container {
-        width: 1440px;
-        padding-left: 60px;
-        padding-right: 60px;
-        outline: 2px solid green;
-    }
+  .container {
+    width: 1440px;
+    padding-left: 60px;
+    padding-right: 60px;
+    outline: 2px solid green;
+  }
 }

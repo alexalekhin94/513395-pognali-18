@@ -1,66 +1,74 @@
-@media (min-width:320px){
-    .contact-list{
+@media (min-width:320px) {
+  .contact-list {
     margin: 0;
     padding: 0;
     list-style: none;
-    margin:0 auto;
+    margin: 0 auto;
     outline: 2px blue solid;
-    &__link{
-        color: black;
-        display: block;
+
+    &__link {
+      color: black;
+      display: block;
     }
-    &__item{
-        outline: 1px red solid;
-        margin-bottom: 10px;
+
+    &__item {
+      outline: 1px red solid;
+      margin-bottom: 10px;
     }
-    &__item:first-child{
-        outline: 1px red solid;
-        margin-left: 0px;
+
+    &__item:first-child {
+      outline: 1px red solid;
+      margin-left: 0px;
     }
-    }
+  }
 }
 
-@media (min-width:728px){
-    .contact-list{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        outline: 2px blue solid;
-        &__link{
-            color: black;
-            display: block;
-        }
-        &__item{
-            outline: 1px red solid;
-            margin-bottom: 10px;
-        }
-        &__item:first-child{
-            outline: 1px red solid;
-            margin-left: 0px;
-        }
+@media (min-width:728px) {
+  .contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: 2px blue solid;
+    &__link {
+      color: black;
+      display: block;
     }
+
+    &__item {
+      outline: 1px red solid;
+      margin-bottom: 10px;
+    }
+
+    &__item:first-child {
+      outline: 1px red solid;
+      margin-left: 0px;
+    }
+  }
 }
 
 
-@media (min-width:1440px){
-    .contact-list{
+@media (min-width:1440px) {
+  .contact-list {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
-    margin:0 auto;
+    margin: 0 auto;
     outline: 2px blue solid;
-    &__link{
-        color: black;
-        display: block;
-        }
-    &__item{
-        outline: 1px red solid;
-        margin-left: 230px;
-        }
-    &__item:first-child {
-        outline: 1px red solid;
-        margin-left: 0px;
-        }
+
+    &__link {
+      color: black;
+      display: block;
     }
+
+    &__item {
+      outline: 1px red solid;
+      margin-left: 230px;
+    }
+
+    &__item:first-child {
+      outline: 1px red solid;
+      margin-left: 0px;
+    }
+  }
 }

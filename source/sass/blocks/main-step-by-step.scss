@@ -1,301 +1,340 @@
 @media (min-width: 320px) {
-    .main-steps {
-        display: flex;
-        margin-top: 0px;
-        box-sizing: border-box;
-        width: 100%;
-        outline: 2px solid blue;
-        background: #192144;
-        &__container {
-            margin: 0 auto;
-            width: 320px;
-            padding-left: 25px;
-            padding-right: 25px;
-            outline: 2px solid green;
-            box-sizing: border-box;
-        }
-        &__to-do-list {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0;
-            padding: 0;
-            margin-top: -85px;
-            margin-bottom: 48px;
-            padding-left: 0px;
-            outline: 2px red solid;
-            list-style: none;
-            counter-reset: steps;
-        }
-        &__to-do-list p {
-            font-family: "BloggerSans", sans-serif;
-            font-weight: bold;
-            font-size: 18px;
-            color: #161c35;
-            margin: 0;
-            padding: 0;
-            outline: 1px red solid;
-            width: 140px;
-        }
-        &__to-do-list-item {
-            position: relative;
-            box-sizing: border-box;
-            margin-top: -20px;
-            margin-bottom: 0px;
-            margin-left: 0px;
-            border: 2px green solid;
-            padding-left: 40px;
-            padding-right: 30px;
-            padding-top: 20px;
-            padding-bottom: 36px;
-        }
-        &__to-do-list-item::before {
-            font-family: "BloggerSans", sans-serif;
-            font-size: 20px;
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            outline: 2px red solid;
-            counter-increment: steps;
-            content: counter(steps);
-            top: 10px;
-            left: 10px;
-            color: #fff;
-        }
-        &__to-do-list-item:first-child {
-            margin-top: 0px;
-        }
-        &__to-do-list-item--item1 {
-            border-radius: 20px 20px 0 0;
-            background-color: #ff8d30;
-            width: 100%;
-        }
-        &__to-do-list-item--item2 {
-            border-radius: 20px 20px 0 0;
-            width: 100%;
-            flex-grow: 1;
-            left: 0px;
-            background: #ffa530;
-        }
-        &__to-do-list-item--item3 {
-            border-radius: 20px 20px 0 0;
-            width: 100%;
-            background: #ffbd30;
-        }
-        &__to-do-list-item--item4 {
-            border-radius: 20px 20px 0 0;
-            background: #ffd74b;
-            width: 100%;
-            flex-grow: 1;
-            left: 0px;
-        }
-        &__title {
-            margin: 0;
-            margin-left: 70px;
-            width: 420px;
-            text-align: left;
-            padding: 0;
-            outline: 2px red solid;
-        }
-        &__quote {
-            margin-top: 9px;
-            width: 260px;
-            outline: 3px blue solid;
-        }
-        &__contact-list {
-            display: none;
-        }
-        &__blockquote {
-            padding: 0;
-            margin: 0;
-            margin-bottom: 20px;
-        }
+  .main-steps {
+    display: flex;
+    margin-top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: 2px solid blue;
+    background: #192144;
+
+    &__container {
+      margin: 0 auto;
+      width: 320px;
+      padding-left: 25px;
+      padding-right: 25px;
+      outline: 2px solid green;
+      box-sizing: border-box;
     }
+
+    &__to-do-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      margin-top: -85px;
+      margin-bottom: 48px;
+      padding-left: 0px;
+      outline: 2px red solid;
+      list-style: none;
+      counter-reset: steps;
+    }
+
+    &__to-do-list p {
+      font-family: "BloggerSans", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: #161c35;
+      margin: 0;
+      padding: 0;
+      outline: 1px red solid;
+      width: 140px;
+    }
+
+    &__to-do-list-item {
+      position: relative;
+      box-sizing: border-box;
+      margin-top: -20px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      border: 2px green solid;
+      padding-left: 40px;
+      padding-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 36px;
+    }
+
+    &__to-do-list-item::before {
+      font-family: "BloggerSans", sans-serif;
+      font-size: 20px;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      outline: 2px red solid;
+      counter-increment: steps;
+      content: counter(steps);
+      top: 10px;
+      left: 10px;
+      color: #fff;
+    }
+
+    &__to-do-list-item:first-child {
+      margin-top: 0px;
+    }
+
+    &__to-do-list-item--item1 {
+      border-radius: 20px 20px 0 0;
+      background-color: #ff8d30;
+      width: 100%;
+    }
+
+    &__to-do-list-item--item2 {
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+      flex-grow: 1;
+      left: 0px;
+      background: #ffa530;
+    }
+
+    &__to-do-list-item--item3 {
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+      background: #ffbd30;
+    }
+
+    &__to-do-list-item--item4 {
+      border-radius: 20px 20px 0 0;
+      background: #ffd74b;
+      width: 100%;
+      flex-grow: 1;
+      left: 0px;
+    }
+
+    &__title {
+      margin: 0;
+      margin-left: 70px;
+      width: 420px;
+      text-align: left;
+      padding: 0;
+      outline: 2px red solid;
+    }
+
+    &__quote {
+      margin-top: 9px;
+      width: 260px;
+      outline: 3px blue solid;
+    }
+
+    &__contact-list {
+      display: none;
+    }
+
+    &__blockquote {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 @media (min-width: 768px) {
-    .main-steps {
-        margin-top: -170px;
-        padding-bottom: 40px;
-        width: 100%;
-        background-color: transparent;
-        background-image: linear-gradient(to bottom, transparent 50%, #192144 50%, #192144 100%);
+  .main-steps {
+    margin-top: -170px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent 50%, #192144 50%, #192144 100%);
 
-        &__container {
-            margin: 0 auto;
-            width: 768px;
-            padding-left: 40px;
-            padding-right: 40px;
-            outline: 2px solid green;
-            box-sizing: border-box;
-        }
-        &__to-do-list {
-            display: flex;
-            flex-wrap: wrap;
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-            padding-left: 0px;
-            outline: 2px red solid;
-            list-style: none;
-        }
-        &__to-do-list p {
-            font-family: "BloggerSans", sans-serif;
-            font-weight: bold;
-            font-size: 24px;
-            width: 200px;
-        }
-        &__to-do-list-item {
-            height: 140px;
-            box-sizing: border-box;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-left: 0px;
-            border: 2px green solid;
-            border-radius: 20px;
-            padding-left: 33px;
-            padding-right: 30px;
-            padding-top: 33px;
-            padding-bottom: 36px;
-
-        }
-        &__to-do-list-item--item1 {
-            border-radius: 20px 20px 0 0;
-            width: 57%;
-        }
-        &__to-do-list-item--item2 {
-            border-radius: 20px 20px 0 0;
-            width: 50%;
-            flex-grow: 1;
-            margin-left: -60px;
-            left: 0px;
-        }
-        &__to-do-list-item--item3 {
-            border-radius: 0px 0px 20px 20px;
-            width: 57%;
-        }
-        &__to-do-list-item--item4 {
-            border-radius: 0px 0px 20px 20px;
-            width: 50%;
-            flex-grow: 1;
-            margin-left: -60px;
-            left: 0px;
-        }
-        &__title {
-            margin: 0;
-            margin-left: 70px;
-            width: 420px;
-            text-align: left;
-            padding: 0;
-            outline: 2px red solid;
-        }
-        &__quote {
-            margin-top: 9px;
-            width: 260px;
-            outline: 3px blue solid;
-        }
-        &__contact-list {
-            display: none;
-        }
-        &__blockquote {
-            padding: 0;
-            margin: 0;
-            margin-bottom: 20px;
-        }
-        &__to-do-list-item::before {
-            width: 20px;
-            height: 20px;
-            top: 100px;
-            left: 35px;
-            font-size: 28px;
-        }
+    &__container {
+      margin: 0 auto;
+      width: 768px;
+      padding-left: 40px;
+      padding-right: 40px;
+      outline: 2px solid green;
+      box-sizing: border-box;
     }
+
+    &__to-do-list {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      padding-left: 0px;
+      outline: 2px red solid;
+      list-style: none;
+    }
+
+    &__to-do-list p {
+      font-family: "BloggerSans", sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      width: 200px;
+    }
+
+    &__to-do-list-item {
+      height: 140px;
+      box-sizing: border-box;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      border: 2px green solid;
+      border-radius: 20px;
+      padding-left: 33px;
+      padding-right: 30px;
+      padding-top: 33px;
+      padding-bottom: 36px;
+
+    }
+
+    &__to-do-list-item--item1 {
+      border-radius: 20px 20px 0 0;
+      width: 57%;
+    }
+
+    &__to-do-list-item--item2 {
+      border-radius: 20px 20px 0 0;
+      width: 50%;
+      flex-grow: 1;
+      margin-left: -60px;
+      left: 0px;
+    }
+
+    &__to-do-list-item--item3 {
+      border-radius: 0px 0px 20px 20px;
+      width: 57%;
+    }
+
+    &__to-do-list-item--item4 {
+      border-radius: 0px 0px 20px 20px;
+      width: 50%;
+      flex-grow: 1;
+      margin-left: -60px;
+      left: 0px;
+    }
+
+    &__title {
+      margin: 0;
+      margin-left: 70px;
+      width: 420px;
+      text-align: left;
+      padding: 0;
+      outline: 2px red solid;
+    }
+
+    &__quote {
+      margin-top: 9px;
+      width: 260px;
+      outline: 3px blue solid;
+    }
+
+    &__contact-list {
+      display: none;
+    }
+
+    &__blockquote {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    &__to-do-list-item::before {
+      width: 20px;
+      height: 20px;
+      top: 100px;
+      left: 35px;
+      font-size: 28px;
+    }
+  }
 }
 
 @media (min-width: 1440px) {
-    .main-steps {
-        display: flex;
-        margin-top: -80px;
-        height: 120px;
-        padding-bottom: 0;
-        box-sizing: border-box;
-        width: 100%;
-        &__container {
-            width: 1440px;
-            padding-left: 60px;
-            padding-right: 60px
-        }
-        &__to-do-list {
-            display: flex;
-            flex-direction: row;
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-            padding-left: 0px;
-            outline: 2px red solid;
-            list-style: none;
-        }
-        &__to-do-list p {
-            font-family: "BloggerSans", sans-serif;
-            font-weight: bold;
-            font-size: 24px;
-            width: 200px;
-        }
-        &__to-do-list-item {
-            height: 107px;
-            width: 345px;
-            box-sizing: border-box;
-            border: 2px blue solid;
-            border-radius: 20px;
-        }
-        &__to-do-list-item::before {
-            font-size: 20px;
-            width: 20px;
-            height: 20px;
-            outline: 2px green solid;
-            top: 35px;
-            left: 250px;
-            color: #fff;
-        }
-        &__to-do-list-item--item1 {
-            border-radius: 20px 0px 0px 20px;
-            width: 345px;
-            flex-grow: 1;
-        }
-        &__to-do-list-item--item2 {
-            border-radius: 20px 0px 0px 20px;
-            margin-left: -60px;
-            flex-grow: 1;
-        }
-        &__to-do-list-item--item3 {
-            border-radius: 20px 0px 0px 20px;
-            margin-left: -60px;
-            flex-grow: 1;
-        }
-        &__to-do-list-item--item4 {
-            border-radius: 20px 20px 20px 20px;
-            margin-left: -60px;
-            flex-grow: 1;
-        }
-        &__title {
-            margin: 0;
-            margin-left: 70px;
-            width: 420px;
-            text-align: left;
-            padding: 0;
-            outline: 2px red solid;
-        }
-        &__quote {
-            margin-top: 9px;
-            width: 260px;
-            outline: 3px blue solid;
-        }
-        &__contact-list {
-            display: none;
-        }
-        &__blockquote {
-            padding: 0;
-            margin: 0;
-            margin-bottom: 20px;
-        }
+  .main-steps {
+    display: flex;
+    margin-top: -80px;
+    height: 120px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+    &__container {
+      width: 1440px;
+      padding-left: 60px;
+      padding-right: 60px
     }
+
+    &__to-do-list {
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      padding-left: 0px;
+      outline: 2px red solid;
+      list-style: none;
+    }
+
+    &__to-do-list p {
+      font-family: "BloggerSans", sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      width: 200px;
+    }
+
+    &__to-do-list-item {
+      height: 107px;
+      width: 345px;
+      box-sizing: border-box;
+      border: 2px blue solid;
+      border-radius: 20px;
+    }
+
+    &__to-do-list-item::before {
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      outline: 2px green solid;
+      top: 35px;
+      left: 250px;
+      color: #fff;
+    }
+
+    &__to-do-list-item--item1 {
+      border-radius: 20px 0px 0px 20px;
+      width: 345px;
+      flex-grow: 1;
+    }
+
+    &__to-do-list-item--item2 {
+      border-radius: 20px 0px 0px 20px;
+      margin-left: -60px;
+      flex-grow: 1;
+    }
+
+    &__to-do-list-item--item3 {
+      border-radius: 20px 0px 0px 20px;
+      margin-left: -60px;
+      flex-grow: 1;
+    }
+
+    &__to-do-list-item--item4 {
+      border-radius: 20px 20px 20px 20px;
+      margin-left: -60px;
+      flex-grow: 1;
+    }
+
+    &__title {
+      margin: 0;
+      margin-left: 70px;
+      width: 420px;
+      text-align: left;
+      padding: 0;
+      outline: 2px red solid;
+    }
+
+    &__quote {
+      margin-top: 9px;
+      width: 260px;
+      outline: 3px blue solid;
+    }
+
+    &__contact-list {
+      display: none;
+    }
+
+    &__blockquote {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
 }
