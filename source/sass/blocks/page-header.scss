@@ -5,6 +5,7 @@
     width: 100%;
     flex-direction: row;
     outline: 2px solid red;
+    background: #161c35;
 
     &__logo {
       display: block;
@@ -13,7 +14,10 @@
     }
 
     &__container {
+      width: 320px;
       display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
       margin: 0 auto;
       padding-left: 20px;
@@ -23,22 +27,132 @@
     }
 
     &__nav {
+      display: none;
       outline: 3px red solid;
     }
 
     &__webpage-list {
+      margin: 0;
+      padding: 0;
       list-style: none;
+    }
+
+    &__burger {
+      margin: 0;
+      padding: 0;
+      height: 25px;
+      width: 40px;
+      outline: 1px blue solid;
+      border: 0;
+      background: url("/source/img/menu.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+    }
+
+    &__burger svg {
+      height: 16px;
+      width: 30px;
+      //      outline: 1px red solid;
+    }
+
+
+    &__burger:hover svg {
+
+      fill: red;
+    }
+
+    &__webpage-link {
+      text-decoration: none;
+
+    }
+
+    &__auth {
+      text-decoration: none;
+
+    }
+
+
+    &__contacts {
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+
+    }
+
+    &__contact-link {
+      text-decoration: none;
+
     }
 
     &__social-media-list {
       list-style: none;
 
     }
+
   }
 }
 
 
+@media (min-width: 768px) {
 
+  .page-header {
+
+    &__container {
+      width: 768px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      outline: 2px solid green;
+      box-sizing: border-box;
+    }
+
+    &__nav {
+      display: block;
+    }
+
+    &__webpage-list {
+      display: none;
+    }
+
+    &__social-media-list {
+      display: none;
+    }
+
+    &__contacts {
+      display: none;
+    }
+
+    &__auth {
+      display: block;
+      font-family: "BloggerSans", sans-serif;
+      background: #ffd74b;
+      color: #161c35;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-radius: 30px;
+      box-sizing: border-box;
+      width: 188px;
+      height: 40px;
+      cursor: pointer;
+      color: black;
+      text-align: center;
+      padding-top: 10px;
+
+
+
+
+    }
+
+  }
+
+
+}
 
 
 @media (min-width: 1440px) {
@@ -63,5 +177,86 @@
       outline: 2px solid green;
       box-sizing: border-box;
     }
+
+    &__nav {
+      flex-grow: 1;
+    }
+
+
+    &__wrapper {
+      display: flex;
+
+      outline: 5px blue solid;
+    }
+
+    &__webpage-list {
+      position: relative;
+      display: flex;
+      flex-grow: 1;
+      outline: 2px orange solid;
+      padding-top: 8px;
+      margin-left: 120px;
+    }
+
+
+    &__webpage-list::before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 2px;
+      width: 70px;
+      background: white;
+      top: 17px;
+      left: -90px;
+
+
+    }
+
+    &__webpage-link {
+      font-family: "BloggerSans", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      text-transform: uppercase;
+      outline: 2px solid green;
+      margin-right: 10px;
+    }
+
+    &__burger {
+      display: none;
+    }
+
+    &__contacts {
+      margin: 0;
+      display: flex;
+    }
+
+    &__contact-link {
+      outline: 2px red solid;
+      display: flex;
+      height: 40px;
+      width: 40px;
+      padding-top: 10px;
+      padding-left: 12px;
+      box-sizing: border-box;
+      border-radius: 30px;
+    }
+
+    &__contact-link--phone {
+      background: #ff8d30;
+
+
+    }
+
+    &__contact-link--email {
+      background: #ffbd30;
+
+    }
+
+    &__auth {
+      outline: 2px blue solid;
+      order: 2
+    }
+
   }
 }
